@@ -1,0 +1,3002 @@
+<Events>
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:52:26.000000Z" />
+    <EventRecordID>1000</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="242" ThreadID="7374" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2731558270</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:49:26.000000Z" />
+    <EventRecordID>1001</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="664" ThreadID="1996" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6677750774</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:46:26.000000Z" />
+    <EventRecordID>1002</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="538" ThreadID="7016" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1406083383</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:43:26.000000Z" />
+    <EventRecordID>1003</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="863" ThreadID="4240" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2585048630</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:40:26.000000Z" />
+    <EventRecordID>1004</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="132" ThreadID="1954" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5349671356</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:37:26.000000Z" />
+    <EventRecordID>1005</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="998" ThreadID="3869" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7308548499</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:34:26.000000Z" />
+    <EventRecordID>1006</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="370" ThreadID="8578" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4919220100</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:31:26.000000Z" />
+    <EventRecordID>1007</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="547" ThreadID="2501" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5084371243</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:28:26.000000Z" />
+    <EventRecordID>1008</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="995" ThreadID="5433" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5729592680</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:25:26.000000Z" />
+    <EventRecordID>1009</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="468" ThreadID="7226" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6269281967</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:22:26.000000Z" />
+    <EventRecordID>1010</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="620" ThreadID="5030" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4675794679</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:19:26.000000Z" />
+    <EventRecordID>1011</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="764" ThreadID="9504" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7695177755</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:16:26.000000Z" />
+    <EventRecordID>1012</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="997" ThreadID="2015" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7379583466</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:13:26.000000Z" />
+    <EventRecordID>1013</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="277" ThreadID="9664" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6264911383</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:10:26.000000Z" />
+    <EventRecordID>1014</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="838" ThreadID="5547" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6905549963</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:07:26.000000Z" />
+    <EventRecordID>1015</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="157" ThreadID="8389" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8249339872</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:04:26.000000Z" />
+    <EventRecordID>1016</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="189" ThreadID="9104" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3925367251</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T02:01:26.000000Z" />
+    <EventRecordID>1017</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="356" ThreadID="7811" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9875903529</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:58:26.000000Z" />
+    <EventRecordID>1018</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="102" ThreadID="4454" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9292761870</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:55:26.000000Z" />
+    <EventRecordID>1019</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="432" ThreadID="3360" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5843002174</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:52:26.000000Z" />
+    <EventRecordID>1020</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="865" ThreadID="9064" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4443255444</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:49:26.000000Z" />
+    <EventRecordID>1021</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="974" ThreadID="8584" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4260156012</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:46:26.000000Z" />
+    <EventRecordID>1022</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="157" ThreadID="4612" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8189906955</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:43:26.000000Z" />
+    <EventRecordID>1023</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="324" ThreadID="9883" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9330713607</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:40:26.000000Z" />
+    <EventRecordID>1024</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="826" ThreadID="8588" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8027350163</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:37:26.000000Z" />
+    <EventRecordID>1025</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="212" ThreadID="4633" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4746025440</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:34:26.000000Z" />
+    <EventRecordID>1026</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="756" ThreadID="2316" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5967946301</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:31:26.000000Z" />
+    <EventRecordID>1027</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="190" ThreadID="7310" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4793859160</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:28:26.000000Z" />
+    <EventRecordID>1028</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="982" ThreadID="1734" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5344066677</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:25:26.000000Z" />
+    <EventRecordID>1029</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="304" ThreadID="2262" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6767177257</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:22:26.000000Z" />
+    <EventRecordID>1030</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="579" ThreadID="7909" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2717262759</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:19:26.000000Z" />
+    <EventRecordID>1031</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="231" ThreadID="9946" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5069887726</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:16:26.000000Z" />
+    <EventRecordID>1032</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="359" ThreadID="2474" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1938693958</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:13:26.000000Z" />
+    <EventRecordID>1033</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="656" ThreadID="9790" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3644379394</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:10:26.000000Z" />
+    <EventRecordID>1034</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="436" ThreadID="1435" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9655231808</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:07:26.000000Z" />
+    <EventRecordID>1035</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="304" ThreadID="6844" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9789110688</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:04:26.000000Z" />
+    <EventRecordID>1036</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="647" ThreadID="9348" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2308112755</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T01:01:26.000000Z" />
+    <EventRecordID>1037</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="755" ThreadID="5923" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7397025531</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:58:26.000000Z" />
+    <EventRecordID>1038</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="330" ThreadID="5411" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1397740603</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:55:26.000000Z" />
+    <EventRecordID>1039</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="731" ThreadID="5022" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8199919141</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:52:26.000000Z" />
+    <EventRecordID>1040</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="752" ThreadID="5097" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9711595331</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:49:26.000000Z" />
+    <EventRecordID>1041</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="290" ThreadID="7027" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6724351659</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:46:26.000000Z" />
+    <EventRecordID>1042</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="297" ThreadID="7137" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4135224111</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:43:26.000000Z" />
+    <EventRecordID>1043</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="989" ThreadID="5755" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4917186268</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:40:26.000000Z" />
+    <EventRecordID>1044</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="640" ThreadID="1649" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8796784215</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:37:26.000000Z" />
+    <EventRecordID>1045</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="318" ThreadID="3445" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3269338010</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:34:26.000000Z" />
+    <EventRecordID>1046</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="674" ThreadID="6178" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1522804870</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:31:26.000000Z" />
+    <EventRecordID>1047</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="510" ThreadID="6870" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9420734126</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:28:26.000000Z" />
+    <EventRecordID>1048</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="890" ThreadID="5335" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4186003211</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:25:26.000000Z" />
+    <EventRecordID>1049</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="502" ThreadID="3415" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3147774122</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:22:26.000000Z" />
+    <EventRecordID>1050</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="653" ThreadID="1887" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8752874557</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:19:26.000000Z" />
+    <EventRecordID>1051</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="734" ThreadID="4806" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9128540555</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:16:26.000000Z" />
+    <EventRecordID>1052</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="865" ThreadID="7510" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9107500835</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:13:26.000000Z" />
+    <EventRecordID>1053</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="590" ThreadID="9586" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9781878720</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:10:26.000000Z" />
+    <EventRecordID>1054</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="818" ThreadID="3160" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7593275615</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:07:26.000000Z" />
+    <EventRecordID>1055</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="452" ThreadID="2471" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9021194022</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:04:26.000000Z" />
+    <EventRecordID>1056</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="770" ThreadID="8373" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6876559061</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-17T00:01:26.000000Z" />
+    <EventRecordID>1057</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="370" ThreadID="7443" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1623123573</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:58:26.000000Z" />
+    <EventRecordID>1058</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="934" ThreadID="5029" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6851064867</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:55:26.000000Z" />
+    <EventRecordID>1059</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="809" ThreadID="3143" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4032761065</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:52:26.000000Z" />
+    <EventRecordID>1060</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="243" ThreadID="6307" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8567755533</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:49:26.000000Z" />
+    <EventRecordID>1061</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="861" ThreadID="8245" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4393231691</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:46:26.000000Z" />
+    <EventRecordID>1062</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="533" ThreadID="8705" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2383028582</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:43:26.000000Z" />
+    <EventRecordID>1063</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="658" ThreadID="1074" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8696352224</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:40:26.000000Z" />
+    <EventRecordID>1064</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="255" ThreadID="2991" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6314543368</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:37:26.000000Z" />
+    <EventRecordID>1065</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="101" ThreadID="4805" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5702563471</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:34:26.000000Z" />
+    <EventRecordID>1066</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="117" ThreadID="6115" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9527885389</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:31:26.000000Z" />
+    <EventRecordID>1067</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="760" ThreadID="2861" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4991738488</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:28:26.000000Z" />
+    <EventRecordID>1068</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="949" ThreadID="1281" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9084285925</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:25:26.000000Z" />
+    <EventRecordID>1069</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="527" ThreadID="8019" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-8691040722</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:22:26.000000Z" />
+    <EventRecordID>1070</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="252" ThreadID="7129" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5300855802</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:19:26.000000Z" />
+    <EventRecordID>1071</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="264" ThreadID="2348" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4709507124</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:16:26.000000Z" />
+    <EventRecordID>1072</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="579" ThreadID="7570" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2346484754</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:13:26.000000Z" />
+    <EventRecordID>1073</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="541" ThreadID="7132" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1729321521</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:10:26.000000Z" />
+    <EventRecordID>1074</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="692" ThreadID="7643" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1017582073</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:07:26.000000Z" />
+    <EventRecordID>1075</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="104" ThreadID="1306" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5614114619</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:04:26.000000Z" />
+    <EventRecordID>1076</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="231" ThreadID="7956" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6050269461</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T23:01:26.000000Z" />
+    <EventRecordID>1077</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="263" ThreadID="3221" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3533106299</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:58:26.000000Z" />
+    <EventRecordID>1078</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="160" ThreadID="8543" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3559465656</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:55:26.000000Z" />
+    <EventRecordID>1079</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="616" ThreadID="1763" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1468368196</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:52:26.000000Z" />
+    <EventRecordID>1080</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="963" ThreadID="5095" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1297108992</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:49:26.000000Z" />
+    <EventRecordID>1081</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="267" ThreadID="9842" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-5760659986</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:46:26.000000Z" />
+    <EventRecordID>1082</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="200" ThreadID="6822" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2758899651</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:43:26.000000Z" />
+    <EventRecordID>1083</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="752" ThreadID="7279" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4654257171</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:40:26.000000Z" />
+    <EventRecordID>1084</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="664" ThreadID="1932" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9582759927</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:37:26.000000Z" />
+    <EventRecordID>1085</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="261" ThreadID="6697" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9023616104</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:34:26.000000Z" />
+    <EventRecordID>1086</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="169" ThreadID="2440" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9466564169</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:31:26.000000Z" />
+    <EventRecordID>1087</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="445" ThreadID="3951" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7433796267</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:28:26.000000Z" />
+    <EventRecordID>1088</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="506" ThreadID="2359" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-7469621786</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:25:26.000000Z" />
+    <EventRecordID>1089</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="403" ThreadID="9066" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4256556451</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:22:26.000000Z" />
+    <EventRecordID>1090</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="148" ThreadID="2764" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-3919224266</Data>
+    <Data Name="TargetUserName">user0</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:19:26.000000Z" />
+    <EventRecordID>1091</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="418" ThreadID="7188" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1275084476</Data>
+    <Data Name="TargetUserName">user1</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:16:26.000000Z" />
+    <EventRecordID>1092</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="883" ThreadID="1887" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9802936523</Data>
+    <Data Name="TargetUserName">user2</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:13:26.000000Z" />
+    <EventRecordID>1093</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="257" ThreadID="3661" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2581264275</Data>
+    <Data Name="TargetUserName">user3</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:10:26.000000Z" />
+    <EventRecordID>1094</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="396" ThreadID="8289" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-1792929715</Data>
+    <Data Name="TargetUserName">user4</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">Winlogon</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:07:26.000000Z" />
+    <EventRecordID>1095</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="441" ThreadID="5091" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2867000617</Data>
+    <Data Name="TargetUserName">user5</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4625</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:04:26.000000Z" />
+    <EventRecordID>1096</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="701" ThreadID="5588" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-6559486130</Data>
+    <Data Name="TargetUserName">user6</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4624</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T22:01:26.000000Z" />
+    <EventRecordID>1097</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="471" ThreadID="5262" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-9161680902</Data>
+    <Data Name="TargetUserName">user7</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">2</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">NTLM</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4634</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T21:58:26.000000Z" />
+    <EventRecordID>1098</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="388" ThreadID="9788" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-4258010422</Data>
+    <Data Name="TargetUserName">user8</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">10</Data>
+    <Data Name="LogonProcessName">Advapi</Data>
+    <Data Name="AuthenticationPackageName">Negotiate</Data>
+  </EventData>
+</Event>
+
+<Event xmlns="http://schemas.microsoft.com/win/2004/08/events/event">
+  <System>
+    <Provider Name="Microsoft-Windows-Security-Auditing" Guid="{54849625-5478-4994-a5ba-3e3b0328c30d}" />
+    <EventID>4647</EventID>
+    <Version>0</Version>
+    <Level>0</Level>
+    <Task>12544</Task>
+    <Opcode>0</Opcode>
+    <Keywords>0x8020000000000000</Keywords>
+    <TimeCreated SystemTime="2025-04-16T21:55:26.000000Z" />
+    <EventRecordID>1099</EventRecordID>
+    <Correlation />
+    <Execution ProcessID="955" ThreadID="7867" />
+    <Channel>Security</Channel>
+    <Computer>WIN-TESTBOX</Computer>
+    <Security />
+  </System>
+  <EventData>
+    <Data Name="SubjectUserSid">S-1-5-18</Data>
+    <Data Name="SubjectUserName">SYSTEM</Data>
+    <Data Name="SubjectDomainName">NT AUTHORITY</Data>
+    <Data Name="TargetUserSid">S-1-5-21-2680482480</Data>
+    <Data Name="TargetUserName">user9</Data>
+    <Data Name="TargetDomainName">WIN-TESTBOX</Data>
+    <Data Name="LogonType">3</Data>
+    <Data Name="LogonProcessName">User32</Data>
+    <Data Name="AuthenticationPackageName">Kerberos</Data>
+  </EventData>
+</Event>
+
+</Events>

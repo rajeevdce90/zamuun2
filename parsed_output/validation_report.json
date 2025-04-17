@@ -1,0 +1,11 @@
+{
+  "statistics": {
+    "valid_events": 0,
+    "invalid_events": 0,
+    "warnings": 0,
+    "errors_by_category": {},
+    "error_details": {}
+  },
+  "errors_by_category": {},
+  "error_details": {}
+}

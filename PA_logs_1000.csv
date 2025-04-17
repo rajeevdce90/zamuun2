@@ -1,0 +1,1001 @@
+timestamp,log_type,src_ip,dst_ip,user,app,action,details
+2025-04-16T11:56:14.322648,USER,172.16.0.3,10.0.0.5,user1,ftp,alert,user event occurred
+2025-04-17T00:13:53.322648,SYSTEM,10.0.0.5,192.168.1.20,user1,web-browsing,alert,interface_down
+2025-04-17T02:23:03.322648,METADATA,172.16.0.3,10.0.0.5,user2,ssl,alert,update_check
+2025-04-17T01:38:24.322648,SYSTEM,10.0.0.5,192.168.1.10,admin,ssh,allow,config_change
+2025-04-16T22:35:02.322648,SRC,10.0.0.5,192.168.1.20,guest,ssl,drop,src event occurred
+2025-04-16T03:59:02.322648,USER,192.168.1.20,172.16.0.3,user2,ssl,drop,user event occurred
+2025-04-16T08:36:37.322648,TRAFFIC,10.0.0.5,192.168.1.10,user2,ssh,deny,traffic event occurred
+2025-04-16T15:42:43.322648,METADATA,192.168.1.10,192.168.1.10,user1,web-browsing,alert,update_check
+2025-04-17T00:00:58.322648,THREAT,172.16.0.3,172.16.0.3,admin,web-browsing,alert,threat event occurred
+2025-04-16T18:43:00.322648,METADATA,192.168.1.20,192.168.1.10,guest,dns,drop,license_warning
+2025-04-16T09:06:21.322648,SRC,192.168.1.20,192.168.1.10,admin,ftp,deny,src event occurred
+2025-04-16T09:50:19.322648,SYSTEM,192.168.1.20,10.0.0.5,admin,ssh,alert,reboot
+2025-04-16T20:49:04.322648,SRC,172.16.0.3,10.0.0.5,user2,web-browsing,deny,src event occurred
+2025-04-17T00:50:35.322648,TRAFFIC,172.16.0.3,172.16.0.3,user1,ssh,allow,traffic event occurred
+2025-04-16T13:17:50.322648,SYSTEM,172.16.0.3,172.16.0.3,user2,web-browsing,drop,config_change
+2025-04-16T09:26:40.322648,SRC,172.16.0.3,192.168.1.10,admin,dns,alert,src event occurred
+2025-04-16T22:17:59.322648,SYSTEM,192.168.1.10,10.0.0.5,user1,dns,allow,reboot
+2025-04-16T07:11:27.322648,SRC,192.168.1.10,192.168.1.20,user1,ssl,deny,src event occurred
+2025-04-16T17:17:07.322648,SYSTEM,192.168.1.10,10.0.0.5,admin,dns,alert,interface_down
+2025-04-16T04:22:18.322648,TRAFFIC,192.168.1.20,172.16.0.3,user1,dns,alert,traffic event occurred
+2025-04-16T08:17:02.322648,METADATA,172.16.0.3,172.16.0.3,user2,dns,allow,license_warning
+2025-04-16T07:46:33.322648,SYSTEM,172.16.0.3,192.168.1.20,user2,ssl,alert,reboot
+2025-04-17T00:07:15.322648,TRAFFIC,192.168.1.10,10.0.0.5,user1,ssl,deny,traffic event occurred
+2025-04-16T20:58:04.322648,METADATA,10.0.0.5,192.168.1.20,user1,ssh,alert,license_warning
+2025-04-16T22:10:32.322648,USER,172.16.0.3,10.0.0.5,admin,ssl,drop,user event occurred
+2025-04-16T05:58:37.322648,THREAT,192.168.1.20,172.16.0.3,guest,web-browsing,alert,threat event occurred
+2025-04-17T00:17:40.322648,USER,192.168.1.20,172.16.0.3,guest,ftp,deny,user event occurred
+2025-04-16T16:48:29.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,ssh,alert,interface_down
+2025-04-16T21:47:10.322648,SRC,192.168.1.20,192.168.1.10,user1,ssh,drop,src event occurred
+2025-04-16T18:50:56.322648,SYSTEM,172.16.0.3,172.16.0.3,user1,ssh,alert,interface_down
+2025-04-16T13:09:23.322648,SRC,10.0.0.5,10.0.0.5,user1,ssl,drop,src event occurred
+2025-04-16T06:59:02.322648,THREAT,10.0.0.5,192.168.1.10,guest,dns,allow,threat event occurred
+2025-04-16T23:17:58.322648,METADATA,10.0.0.5,10.0.0.5,user1,ssl,alert,update_check
+2025-04-16T06:22:16.322648,SYSTEM,192.168.1.20,192.168.1.10,user1,ssh,alert,config_change
+2025-04-17T00:18:07.322648,METADATA,192.168.1.20,172.16.0.3,user1,dns,allow,update_check
+2025-04-16T18:04:38.322648,SRC,192.168.1.10,10.0.0.5,guest,dns,deny,src event occurred
+2025-04-16T15:32:20.322648,TRAFFIC,192.168.1.20,192.168.1.10,admin,dns,drop,traffic event occurred
+2025-04-16T16:42:18.322648,SYSTEM,172.16.0.3,172.16.0.3,guest,ssl,alert,interface_down
+2025-04-16T09:08:34.322648,SRC,192.168.1.10,172.16.0.3,admin,dns,drop,src event occurred
+2025-04-16T17:13:42.322648,HIPMATCH,192.168.1.20,192.168.1.20,user1,ftp,drop,hip_match_true
+2025-04-16T20:02:35.322648,HIPMATCH,192.168.1.10,192.168.1.10,admin,web-browsing,drop,hip_match_true
+2025-04-16T03:33:33.322648,HIPMATCH,10.0.0.5,10.0.0.5,admin,ssl,allow,hip_match_true
+2025-04-16T23:41:16.322648,METADATA,172.16.0.3,172.16.0.3,user2,ftp,alert,license_warning
+2025-04-16T17:51:21.322648,SRC,172.16.0.3,172.16.0.3,guest,ssl,allow,src event occurred
+2025-04-16T19:24:21.322648,HIPMATCH,172.16.0.3,192.168.1.20,user2,dns,deny,hip_match_false
+2025-04-17T00:27:20.322648,TRAFFIC,192.168.1.20,172.16.0.3,guest,ssh,deny,traffic event occurred
+2025-04-16T19:50:39.322648,SYSTEM,10.0.0.5,192.168.1.20,user1,dns,drop,interface_down
+2025-04-17T01:59:25.322648,SYSTEM,172.16.0.3,10.0.0.5,admin,ssh,allow,interface_down
+2025-04-16T05:13:34.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,ftp,allow,reboot
+2025-04-16T03:47:29.322648,HIPMATCH,192.168.1.20,192.168.1.10,user2,web-browsing,drop,hip_match_true
+2025-04-16T22:21:55.322648,THREAT,192.168.1.10,192.168.1.20,user1,ssl,allow,threat event occurred
+2025-04-16T16:44:35.322648,THREAT,192.168.1.10,10.0.0.5,admin,ssl,deny,threat event occurred
+2025-04-16T05:31:18.322648,SRC,192.168.1.20,192.168.1.20,user1,ssl,allow,src event occurred
+2025-04-16T07:17:33.322648,USER,172.16.0.3,192.168.1.20,guest,ssh,drop,user event occurred
+2025-04-16T16:21:31.322648,THREAT,192.168.1.20,10.0.0.5,user1,ssh,allow,threat event occurred
+2025-04-16T07:05:52.322648,SRC,172.16.0.3,192.168.1.10,user1,dns,allow,src event occurred
+2025-04-16T12:50:05.322648,SRC,172.16.0.3,172.16.0.3,user2,dns,deny,src event occurred
+2025-04-16T16:58:58.322648,SRC,172.16.0.3,192.168.1.10,guest,web-browsing,allow,src event occurred
+2025-04-16T13:19:25.322648,METADATA,192.168.1.10,10.0.0.5,user2,ssh,allow,license_warning
+2025-04-16T07:46:34.322648,TRAFFIC,172.16.0.3,192.168.1.10,user2,ftp,drop,traffic event occurred
+2025-04-16T11:56:49.322648,SRC,172.16.0.3,10.0.0.5,admin,ssh,allow,src event occurred
+2025-04-16T18:01:37.322648,METADATA,10.0.0.5,10.0.0.5,user2,web-browsing,allow,license_warning
+2025-04-16T03:27:30.322648,METADATA,192.168.1.20,192.168.1.10,guest,dns,alert,license_warning
+2025-04-16T14:10:04.322648,USER,10.0.0.5,192.168.1.10,guest,ssl,deny,user event occurred
+2025-04-16T13:09:05.322648,METADATA,192.168.1.10,192.168.1.10,user1,ssl,drop,update_check
+2025-04-16T19:14:35.322648,HIPMATCH,192.168.1.10,10.0.0.5,admin,ssl,deny,hip_match_true
+2025-04-16T21:09:11.322648,THREAT,192.168.1.20,192.168.1.10,guest,ssh,allow,threat event occurred
+2025-04-16T15:44:30.322648,METADATA,192.168.1.10,192.168.1.20,admin,web-browsing,allow,update_check
+2025-04-16T19:53:47.322648,USER,172.16.0.3,192.168.1.10,guest,dns,allow,user event occurred
+2025-04-16T13:38:21.322648,THREAT,192.168.1.20,172.16.0.3,guest,dns,drop,threat event occurred
+2025-04-16T05:47:58.322648,SRC,172.16.0.3,10.0.0.5,user1,ftp,deny,src event occurred
+2025-04-17T02:06:08.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,web-browsing,drop,hip_match_false
+2025-04-17T02:00:20.322648,TRAFFIC,192.168.1.20,172.16.0.3,user1,dns,alert,traffic event occurred
+2025-04-16T20:57:43.322648,HIPMATCH,192.168.1.20,192.168.1.20,user2,web-browsing,allow,hip_match_true
+2025-04-16T06:31:40.322648,THREAT,172.16.0.3,192.168.1.20,user2,ssl,deny,threat event occurred
+2025-04-16T06:09:51.322648,USER,192.168.1.10,10.0.0.5,guest,web-browsing,deny,user event occurred
+2025-04-17T01:05:06.322648,METADATA,172.16.0.3,172.16.0.3,user1,dns,deny,update_check
+2025-04-16T10:13:44.322648,USER,10.0.0.5,192.168.1.20,user2,ftp,drop,user event occurred
+2025-04-16T20:00:03.322648,USER,10.0.0.5,192.168.1.20,user1,ftp,alert,user event occurred
+2025-04-16T11:12:31.322648,USER,192.168.1.10,10.0.0.5,user2,ssh,allow,user event occurred
+2025-04-17T01:48:58.322648,THREAT,192.168.1.20,10.0.0.5,user1,ssh,drop,threat event occurred
+2025-04-16T04:13:55.322648,TRAFFIC,192.168.1.20,10.0.0.5,user2,ssh,drop,traffic event occurred
+2025-04-16T05:45:06.322648,SRC,10.0.0.5,192.168.1.10,user2,ftp,allow,src event occurred
+2025-04-16T14:44:28.322648,THREAT,10.0.0.5,172.16.0.3,guest,web-browsing,drop,threat event occurred
+2025-04-16T14:53:13.322648,USER,172.16.0.3,192.168.1.10,guest,ssh,drop,user event occurred
+2025-04-17T01:03:32.322648,SRC,192.168.1.20,192.168.1.10,user1,web-browsing,deny,src event occurred
+2025-04-16T14:48:50.322648,USER,10.0.0.5,192.168.1.10,user1,ftp,allow,user event occurred
+2025-04-16T18:50:10.322648,METADATA,172.16.0.3,192.168.1.10,user1,ssl,allow,update_check
+2025-04-16T15:36:21.322648,USER,172.16.0.3,10.0.0.5,admin,dns,alert,user event occurred
+2025-04-16T15:32:05.322648,SYSTEM,192.168.1.20,10.0.0.5,admin,ssl,drop,config_change
+2025-04-16T13:37:12.322648,SRC,192.168.1.10,192.168.1.10,guest,ftp,alert,src event occurred
+2025-04-16T07:52:14.322648,HIPMATCH,172.16.0.3,192.168.1.10,guest,web-browsing,drop,hip_match_true
+2025-04-16T07:56:27.322648,THREAT,192.168.1.20,172.16.0.3,user1,ftp,deny,threat event occurred
+2025-04-16T20:35:34.322648,METADATA,10.0.0.5,172.16.0.3,guest,ssl,alert,update_check
+2025-04-16T18:36:33.322648,HIPMATCH,192.168.1.20,192.168.1.10,admin,dns,allow,hip_match_true
+2025-04-16T13:57:49.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,web-browsing,deny,reboot
+2025-04-16T04:05:00.322648,SYSTEM,192.168.1.10,192.168.1.20,user1,ssh,alert,reboot
+2025-04-16T08:28:57.322648,USER,192.168.1.10,172.16.0.3,guest,ssl,alert,user event occurred
+2025-04-17T01:48:51.322648,TRAFFIC,172.16.0.3,192.168.1.20,user1,ftp,alert,traffic event occurred
+2025-04-17T02:12:01.322648,THREAT,10.0.0.5,172.16.0.3,admin,ssl,drop,threat event occurred
+2025-04-16T19:39:04.322648,SYSTEM,172.16.0.3,192.168.1.10,user1,web-browsing,drop,reboot
+2025-04-16T05:42:32.322648,SYSTEM,172.16.0.3,192.168.1.20,user2,ssl,deny,config_change
+2025-04-16T02:58:48.322648,SYSTEM,172.16.0.3,10.0.0.5,user2,ssh,allow,config_change
+2025-04-16T06:37:21.322648,SRC,10.0.0.5,192.168.1.20,admin,ssh,alert,src event occurred
+2025-04-16T22:16:11.322648,TRAFFIC,192.168.1.10,172.16.0.3,guest,dns,allow,traffic event occurred
+2025-04-16T08:30:16.322648,USER,172.16.0.3,10.0.0.5,user1,web-browsing,alert,user event occurred
+2025-04-16T19:49:29.322648,TRAFFIC,192.168.1.10,10.0.0.5,user2,ftp,allow,traffic event occurred
+2025-04-16T13:54:22.322648,METADATA,10.0.0.5,192.168.1.20,user2,ftp,alert,license_warning
+2025-04-16T17:41:26.322648,TRAFFIC,192.168.1.20,192.168.1.10,guest,ssl,alert,traffic event occurred
+2025-04-16T09:19:33.322648,THREAT,192.168.1.20,172.16.0.3,user2,ssh,drop,threat event occurred
+2025-04-16T16:02:11.322648,HIPMATCH,192.168.1.10,10.0.0.5,user1,dns,deny,hip_match_false
+2025-04-16T19:02:31.322648,USER,192.168.1.10,10.0.0.5,user1,ssh,deny,user event occurred
+2025-04-16T13:33:40.322648,SRC,192.168.1.20,172.16.0.3,admin,dns,drop,src event occurred
+2025-04-16T07:43:50.322648,USER,10.0.0.5,192.168.1.10,user1,web-browsing,drop,user event occurred
+2025-04-16T20:16:46.322648,SYSTEM,192.168.1.10,10.0.0.5,admin,ftp,deny,reboot
+2025-04-16T17:17:04.322648,THREAT,10.0.0.5,172.16.0.3,guest,web-browsing,allow,threat event occurred
+2025-04-16T14:29:48.322648,THREAT,10.0.0.5,192.168.1.20,guest,web-browsing,allow,threat event occurred
+2025-04-17T00:29:42.322648,METADATA,10.0.0.5,10.0.0.5,user2,ssl,deny,license_warning
+2025-04-16T16:26:30.322648,METADATA,192.168.1.10,10.0.0.5,user2,ssl,drop,license_warning
+2025-04-16T21:37:50.322648,SRC,192.168.1.20,192.168.1.20,guest,dns,deny,src event occurred
+2025-04-16T04:09:27.322648,SYSTEM,10.0.0.5,10.0.0.5,admin,ftp,allow,config_change
+2025-04-16T13:09:05.322648,SYSTEM,192.168.1.20,192.168.1.20,user1,dns,allow,interface_down
+2025-04-16T20:46:41.322648,SYSTEM,192.168.1.20,192.168.1.20,admin,dns,deny,interface_down
+2025-04-17T00:27:45.322648,METADATA,192.168.1.20,192.168.1.10,admin,dns,alert,update_check
+2025-04-16T22:01:23.322648,HIPMATCH,172.16.0.3,10.0.0.5,admin,ssl,drop,hip_match_false
+2025-04-16T07:59:19.322648,THREAT,192.168.1.10,172.16.0.3,guest,ftp,drop,threat event occurred
+2025-04-16T18:32:24.322648,USER,172.16.0.3,172.16.0.3,guest,ftp,deny,user event occurred
+2025-04-16T06:16:53.322648,THREAT,10.0.0.5,192.168.1.10,admin,dns,alert,threat event occurred
+2025-04-17T02:01:22.322648,THREAT,172.16.0.3,192.168.1.20,user2,web-browsing,drop,threat event occurred
+2025-04-16T07:54:45.322648,HIPMATCH,192.168.1.10,192.168.1.10,user2,ftp,allow,hip_match_false
+2025-04-17T01:56:22.322648,SRC,192.168.1.10,172.16.0.3,guest,ftp,allow,src event occurred
+2025-04-16T23:06:38.322648,SRC,192.168.1.10,172.16.0.3,user2,ftp,drop,src event occurred
+2025-04-16T22:41:30.322648,USER,10.0.0.5,192.168.1.20,user1,ssl,drop,user event occurred
+2025-04-16T16:44:19.322648,SRC,172.16.0.3,192.168.1.10,user2,ssh,deny,src event occurred
+2025-04-16T12:46:30.322648,TRAFFIC,192.168.1.20,192.168.1.10,user2,ssl,deny,traffic event occurred
+2025-04-16T21:35:53.322648,SYSTEM,192.168.1.10,10.0.0.5,user1,ssh,allow,config_change
+2025-04-16T12:26:33.322648,HIPMATCH,192.168.1.20,192.168.1.10,guest,dns,drop,hip_match_false
+2025-04-16T18:07:02.322648,METADATA,192.168.1.10,192.168.1.10,guest,web-browsing,alert,license_warning
+2025-04-16T03:47:46.322648,SYSTEM,192.168.1.20,172.16.0.3,guest,web-browsing,drop,reboot
+2025-04-16T06:11:28.322648,THREAT,192.168.1.20,192.168.1.10,user2,ftp,deny,threat event occurred
+2025-04-17T00:09:54.322648,THREAT,10.0.0.5,10.0.0.5,guest,ftp,drop,threat event occurred
+2025-04-16T12:59:04.322648,TRAFFIC,172.16.0.3,192.168.1.20,user2,ftp,drop,traffic event occurred
+2025-04-16T20:21:22.322648,HIPMATCH,10.0.0.5,10.0.0.5,guest,dns,drop,hip_match_true
+2025-04-16T20:15:53.322648,SRC,192.168.1.10,192.168.1.20,admin,ssl,alert,src event occurred
+2025-04-16T11:38:43.322648,USER,172.16.0.3,10.0.0.5,user1,ftp,alert,user event occurred
+2025-04-16T19:15:43.322648,THREAT,192.168.1.10,192.168.1.10,user1,ssh,deny,threat event occurred
+2025-04-16T08:49:30.322648,SRC,10.0.0.5,10.0.0.5,guest,dns,deny,src event occurred
+2025-04-16T14:41:18.322648,TRAFFIC,172.16.0.3,10.0.0.5,user2,ftp,deny,traffic event occurred
+2025-04-16T04:03:20.322648,SYSTEM,172.16.0.3,172.16.0.3,user1,dns,alert,reboot
+2025-04-16T23:16:46.322648,THREAT,192.168.1.10,10.0.0.5,guest,ssh,alert,threat event occurred
+2025-04-16T17:53:48.322648,SYSTEM,10.0.0.5,172.16.0.3,user2,ftp,allow,interface_down
+2025-04-16T20:28:18.322648,SYSTEM,10.0.0.5,192.168.1.10,admin,ssl,allow,config_change
+2025-04-16T18:31:53.322648,USER,192.168.1.20,172.16.0.3,admin,web-browsing,alert,user event occurred
+2025-04-16T03:42:52.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,ssl,alert,interface_down
+2025-04-16T06:37:11.322648,SRC,192.168.1.10,192.168.1.20,admin,web-browsing,drop,src event occurred
+2025-04-16T04:01:51.322648,THREAT,10.0.0.5,192.168.1.10,user2,ssh,deny,threat event occurred
+2025-04-16T16:51:13.322648,HIPMATCH,192.168.1.20,172.16.0.3,user1,dns,allow,hip_match_true
+2025-04-16T07:57:12.322648,SYSTEM,172.16.0.3,192.168.1.20,admin,ssl,deny,reboot
+2025-04-16T18:30:02.322648,USER,192.168.1.10,10.0.0.5,admin,ssl,deny,user event occurred
+2025-04-16T20:48:05.322648,THREAT,192.168.1.10,10.0.0.5,admin,ftp,drop,threat event occurred
+2025-04-16T09:36:27.322648,THREAT,172.16.0.3,172.16.0.3,admin,dns,alert,threat event occurred
+2025-04-16T09:40:46.322648,THREAT,192.168.1.10,192.168.1.20,admin,ssl,deny,threat event occurred
+2025-04-16T23:03:48.322648,SYSTEM,192.168.1.10,10.0.0.5,user1,ssl,deny,config_change
+2025-04-16T04:44:29.322648,SYSTEM,192.168.1.20,10.0.0.5,user2,ssl,alert,interface_down
+2025-04-16T04:39:23.322648,TRAFFIC,172.16.0.3,172.16.0.3,guest,ftp,alert,traffic event occurred
+2025-04-16T15:05:52.322648,SRC,10.0.0.5,192.168.1.20,admin,dns,drop,src event occurred
+2025-04-16T06:28:09.322648,THREAT,192.168.1.20,192.168.1.10,user1,dns,alert,threat event occurred
+2025-04-16T05:12:58.322648,SYSTEM,172.16.0.3,172.16.0.3,user2,web-browsing,allow,config_change
+2025-04-16T14:53:25.322648,SRC,172.16.0.3,192.168.1.10,admin,web-browsing,allow,src event occurred
+2025-04-16T03:41:28.322648,SRC,192.168.1.20,192.168.1.20,admin,web-browsing,alert,src event occurred
+2025-04-16T19:40:57.322648,SRC,172.16.0.3,192.168.1.10,admin,dns,alert,src event occurred
+2025-04-16T17:55:07.322648,TRAFFIC,172.16.0.3,192.168.1.10,admin,ssh,drop,traffic event occurred
+2025-04-16T04:14:02.322648,HIPMATCH,10.0.0.5,10.0.0.5,user1,ssh,alert,hip_match_true
+2025-04-16T06:01:34.322648,USER,192.168.1.10,192.168.1.10,admin,web-browsing,alert,user event occurred
+2025-04-16T14:28:27.322648,SYSTEM,10.0.0.5,192.168.1.10,user1,ssl,drop,interface_down
+2025-04-16T13:54:25.322648,HIPMATCH,10.0.0.5,192.168.1.10,guest,web-browsing,allow,hip_match_true
+2025-04-16T21:05:55.322648,METADATA,192.168.1.20,10.0.0.5,user2,web-browsing,allow,license_warning
+2025-04-16T15:53:31.322648,THREAT,10.0.0.5,10.0.0.5,guest,web-browsing,alert,threat event occurred
+2025-04-16T14:20:03.322648,SRC,172.16.0.3,10.0.0.5,user1,ftp,allow,src event occurred
+2025-04-16T06:54:46.322648,SRC,192.168.1.10,192.168.1.20,guest,ssh,deny,src event occurred
+2025-04-16T23:35:54.322648,SYSTEM,192.168.1.10,10.0.0.5,user2,web-browsing,alert,reboot
+2025-04-16T11:44:32.322648,SRC,10.0.0.5,192.168.1.10,guest,ssl,deny,src event occurred
+2025-04-16T16:33:15.322648,METADATA,192.168.1.20,192.168.1.20,admin,ssl,drop,license_warning
+2025-04-16T11:35:02.322648,METADATA,192.168.1.20,172.16.0.3,user1,ssh,drop,license_warning
+2025-04-16T18:51:34.322648,HIPMATCH,192.168.1.20,192.168.1.20,admin,ftp,deny,hip_match_false
+2025-04-16T16:12:19.322648,THREAT,192.168.1.20,10.0.0.5,user2,dns,allow,threat event occurred
+2025-04-16T12:27:54.322648,TRAFFIC,192.168.1.20,172.16.0.3,admin,ssl,deny,traffic event occurred
+2025-04-16T12:41:32.322648,SYSTEM,192.168.1.20,172.16.0.3,user1,ssl,allow,config_change
+2025-04-16T08:53:47.322648,USER,10.0.0.5,172.16.0.3,user2,dns,drop,user event occurred
+2025-04-16T08:43:27.322648,USER,10.0.0.5,10.0.0.5,user2,web-browsing,alert,user event occurred
+2025-04-16T14:30:41.322648,TRAFFIC,192.168.1.10,10.0.0.5,admin,ftp,drop,traffic event occurred
+2025-04-16T07:53:32.322648,SYSTEM,10.0.0.5,172.16.0.3,user2,dns,alert,config_change
+2025-04-16T19:24:45.322648,THREAT,10.0.0.5,10.0.0.5,user2,ssl,deny,threat event occurred
+2025-04-16T03:42:57.322648,HIPMATCH,172.16.0.3,172.16.0.3,user2,dns,alert,hip_match_false
+2025-04-16T20:29:32.322648,METADATA,10.0.0.5,192.168.1.10,user1,web-browsing,drop,update_check
+2025-04-16T20:45:09.322648,SRC,192.168.1.20,192.168.1.20,user1,ftp,alert,src event occurred
+2025-04-16T03:36:32.322648,METADATA,10.0.0.5,192.168.1.20,guest,web-browsing,drop,license_warning
+2025-04-16T17:34:03.322648,METADATA,192.168.1.10,172.16.0.3,admin,ftp,drop,license_warning
+2025-04-17T01:22:21.322648,USER,172.16.0.3,192.168.1.20,admin,ftp,alert,user event occurred
+2025-04-16T06:32:09.322648,USER,192.168.1.10,192.168.1.10,guest,ftp,deny,user event occurred
+2025-04-16T07:25:49.322648,USER,172.16.0.3,192.168.1.10,admin,ssh,drop,user event occurred
+2025-04-16T19:08:28.322648,SYSTEM,192.168.1.20,10.0.0.5,guest,ssl,alert,reboot
+2025-04-16T07:13:02.322648,METADATA,172.16.0.3,192.168.1.10,user1,ssh,alert,update_check
+2025-04-17T01:15:09.322648,METADATA,192.168.1.10,10.0.0.5,guest,web-browsing,allow,license_warning
+2025-04-16T08:32:45.322648,SYSTEM,192.168.1.10,192.168.1.20,user1,web-browsing,alert,config_change
+2025-04-16T11:56:48.322648,TRAFFIC,192.168.1.10,192.168.1.20,admin,web-browsing,drop,traffic event occurred
+2025-04-16T07:36:18.322648,THREAT,192.168.1.10,192.168.1.20,user2,web-browsing,allow,threat event occurred
+2025-04-16T14:05:08.322648,METADATA,10.0.0.5,172.16.0.3,user2,ssl,allow,update_check
+2025-04-16T15:51:17.322648,SYSTEM,192.168.1.20,172.16.0.3,user1,ssl,deny,interface_down
+2025-04-17T01:22:03.322648,SRC,192.168.1.20,10.0.0.5,user1,web-browsing,deny,src event occurred
+2025-04-16T04:37:48.322648,METADATA,172.16.0.3,172.16.0.3,guest,ssl,drop,update_check
+2025-04-16T20:14:03.322648,HIPMATCH,192.168.1.20,192.168.1.20,user2,ssl,alert,hip_match_false
+2025-04-16T16:15:10.322648,METADATA,192.168.1.10,10.0.0.5,user2,dns,drop,license_warning
+2025-04-16T14:39:03.322648,SRC,192.168.1.20,192.168.1.20,admin,web-browsing,deny,src event occurred
+2025-04-17T02:19:30.322648,HIPMATCH,192.168.1.10,10.0.0.5,admin,ftp,allow,hip_match_false
+2025-04-17T01:26:01.322648,USER,172.16.0.3,192.168.1.20,guest,web-browsing,deny,user event occurred
+2025-04-16T22:38:29.322648,METADATA,10.0.0.5,172.16.0.3,user1,dns,alert,update_check
+2025-04-16T03:06:20.322648,TRAFFIC,192.168.1.20,192.168.1.20,user1,dns,drop,traffic event occurred
+2025-04-16T07:46:10.322648,SRC,10.0.0.5,192.168.1.20,user1,web-browsing,deny,src event occurred
+2025-04-16T08:33:34.322648,THREAT,172.16.0.3,192.168.1.10,user1,ftp,alert,threat event occurred
+2025-04-16T15:58:45.322648,HIPMATCH,10.0.0.5,192.168.1.20,admin,ftp,drop,hip_match_false
+2025-04-16T04:59:47.322648,USER,10.0.0.5,192.168.1.10,user2,dns,alert,user event occurred
+2025-04-16T09:56:09.322648,TRAFFIC,10.0.0.5,10.0.0.5,admin,dns,deny,traffic event occurred
+2025-04-16T05:21:50.322648,SRC,172.16.0.3,172.16.0.3,user1,ssl,allow,src event occurred
+2025-04-16T05:07:41.322648,METADATA,172.16.0.3,192.168.1.20,user2,web-browsing,deny,license_warning
+2025-04-17T00:29:26.322648,THREAT,192.168.1.20,10.0.0.5,admin,web-browsing,drop,threat event occurred
+2025-04-16T18:21:23.322648,USER,10.0.0.5,192.168.1.10,guest,ftp,allow,user event occurred
+2025-04-17T01:39:01.322648,THREAT,192.168.1.20,10.0.0.5,user1,ssh,allow,threat event occurred
+2025-04-16T20:48:22.322648,TRAFFIC,192.168.1.10,192.168.1.20,user1,ftp,deny,traffic event occurred
+2025-04-16T19:46:34.322648,HIPMATCH,192.168.1.10,192.168.1.20,guest,web-browsing,drop,hip_match_true
+2025-04-16T06:22:53.322648,SRC,10.0.0.5,192.168.1.10,admin,ftp,deny,src event occurred
+2025-04-16T18:29:30.322648,USER,10.0.0.5,192.168.1.20,user2,dns,deny,user event occurred
+2025-04-16T05:10:24.322648,SYSTEM,10.0.0.5,192.168.1.20,user1,dns,alert,reboot
+2025-04-17T01:03:42.322648,SRC,172.16.0.3,172.16.0.3,guest,web-browsing,deny,src event occurred
+2025-04-16T08:32:36.322648,TRAFFIC,192.168.1.10,172.16.0.3,admin,ssh,allow,traffic event occurred
+2025-04-16T10:52:06.322648,SRC,10.0.0.5,192.168.1.20,admin,ssh,deny,src event occurred
+2025-04-16T20:19:02.322648,SYSTEM,192.168.1.10,10.0.0.5,guest,dns,allow,config_change
+2025-04-16T20:14:50.322648,SRC,10.0.0.5,192.168.1.10,guest,ssh,drop,src event occurred
+2025-04-16T04:02:20.322648,SRC,172.16.0.3,10.0.0.5,guest,ssh,alert,src event occurred
+2025-04-16T17:48:16.322648,USER,172.16.0.3,192.168.1.10,user2,ftp,alert,user event occurred
+2025-04-16T09:13:23.322648,TRAFFIC,10.0.0.5,192.168.1.10,guest,ssh,alert,traffic event occurred
+2025-04-17T01:36:34.322648,SRC,172.16.0.3,192.168.1.10,user2,dns,allow,src event occurred
+2025-04-16T23:07:28.322648,SRC,172.16.0.3,192.168.1.10,guest,dns,deny,src event occurred
+2025-04-16T14:01:19.322648,SYSTEM,172.16.0.3,172.16.0.3,user1,ssh,drop,interface_down
+2025-04-16T23:16:27.322648,THREAT,10.0.0.5,10.0.0.5,guest,ssl,deny,threat event occurred
+2025-04-16T09:37:08.322648,USER,10.0.0.5,192.168.1.20,admin,ssh,alert,user event occurred
+2025-04-16T21:57:03.322648,METADATA,192.168.1.20,172.16.0.3,user2,ssl,allow,license_warning
+2025-04-17T00:16:43.322648,THREAT,172.16.0.3,10.0.0.5,admin,web-browsing,deny,threat event occurred
+2025-04-16T12:58:24.322648,THREAT,10.0.0.5,172.16.0.3,guest,web-browsing,alert,threat event occurred
+2025-04-16T06:17:35.322648,HIPMATCH,172.16.0.3,172.16.0.3,user2,ssh,drop,hip_match_false
+2025-04-16T22:45:24.322648,THREAT,10.0.0.5,192.168.1.20,admin,ssl,alert,threat event occurred
+2025-04-16T20:11:46.322648,HIPMATCH,192.168.1.20,172.16.0.3,admin,ftp,alert,hip_match_true
+2025-04-16T06:12:16.322648,USER,192.168.1.10,192.168.1.20,user1,dns,deny,user event occurred
+2025-04-16T19:08:26.322648,THREAT,172.16.0.3,192.168.1.10,user2,dns,deny,threat event occurred
+2025-04-16T13:19:14.322648,USER,172.16.0.3,192.168.1.10,user2,dns,allow,user event occurred
+2025-04-16T23:41:56.322648,USER,172.16.0.3,192.168.1.20,admin,ssh,alert,user event occurred
+2025-04-16T22:35:49.322648,USER,192.168.1.20,192.168.1.10,user1,dns,allow,user event occurred
+2025-04-16T05:30:33.322648,HIPMATCH,172.16.0.3,192.168.1.10,admin,ftp,allow,hip_match_false
+2025-04-16T14:06:25.322648,TRAFFIC,192.168.1.10,10.0.0.5,admin,ssl,allow,traffic event occurred
+2025-04-17T00:28:23.322648,THREAT,192.168.1.10,172.16.0.3,guest,ftp,drop,threat event occurred
+2025-04-16T21:24:55.322648,METADATA,192.168.1.20,10.0.0.5,user2,ssl,alert,update_check
+2025-04-16T20:38:14.322648,SYSTEM,10.0.0.5,192.168.1.20,user2,ssl,allow,config_change
+2025-04-16T20:23:40.322648,SYSTEM,172.16.0.3,192.168.1.10,user2,ssl,deny,interface_down
+2025-04-16T03:06:19.322648,TRAFFIC,192.168.1.20,192.168.1.10,admin,ssl,drop,traffic event occurred
+2025-04-16T20:47:42.322648,TRAFFIC,172.16.0.3,10.0.0.5,user1,dns,drop,traffic event occurred
+2025-04-17T01:05:05.322648,USER,192.168.1.20,10.0.0.5,user1,ftp,allow,user event occurred
+2025-04-16T18:32:22.322648,THREAT,172.16.0.3,192.168.1.10,user2,dns,drop,threat event occurred
+2025-04-17T01:33:07.322648,TRAFFIC,10.0.0.5,192.168.1.10,admin,dns,drop,traffic event occurred
+2025-04-16T06:14:17.322648,THREAT,172.16.0.3,172.16.0.3,user2,ssh,deny,threat event occurred
+2025-04-16T08:23:18.322648,METADATA,192.168.1.10,10.0.0.5,admin,web-browsing,drop,update_check
+2025-04-16T16:01:42.322648,METADATA,192.168.1.10,192.168.1.20,guest,web-browsing,alert,license_warning
+2025-04-17T02:16:11.322648,HIPMATCH,192.168.1.10,10.0.0.5,user1,ftp,deny,hip_match_false
+2025-04-16T18:52:11.322648,USER,10.0.0.5,10.0.0.5,user1,ssl,deny,user event occurred
+2025-04-16T05:01:04.322648,SRC,192.168.1.20,192.168.1.20,guest,dns,deny,src event occurred
+2025-04-16T10:19:35.322648,THREAT,10.0.0.5,10.0.0.5,admin,ftp,alert,threat event occurred
+2025-04-16T14:46:31.322648,USER,172.16.0.3,172.16.0.3,user1,ssh,allow,user event occurred
+2025-04-16T04:50:55.322648,SRC,192.168.1.10,192.168.1.10,guest,ssl,alert,src event occurred
+2025-04-17T02:24:44.322648,HIPMATCH,192.168.1.10,192.168.1.10,user2,web-browsing,alert,hip_match_false
+2025-04-16T19:11:11.322648,USER,192.168.1.20,192.168.1.20,user1,web-browsing,alert,user event occurred
+2025-04-16T04:42:32.322648,METADATA,172.16.0.3,192.168.1.10,user1,ssl,drop,license_warning
+2025-04-16T20:14:24.322648,SYSTEM,172.16.0.3,10.0.0.5,user2,ftp,drop,interface_down
+2025-04-16T20:14:52.322648,METADATA,192.168.1.10,192.168.1.20,user1,ftp,alert,license_warning
+2025-04-16T17:05:36.322648,HIPMATCH,172.16.0.3,192.168.1.10,user2,ssh,allow,hip_match_false
+2025-04-16T15:56:19.322648,USER,10.0.0.5,192.168.1.20,user1,ssl,drop,user event occurred
+2025-04-16T13:30:58.322648,USER,10.0.0.5,172.16.0.3,user2,web-browsing,drop,user event occurred
+2025-04-16T18:52:43.322648,USER,172.16.0.3,192.168.1.20,user2,ssl,deny,user event occurred
+2025-04-16T09:33:33.322648,SRC,192.168.1.20,172.16.0.3,admin,dns,alert,src event occurred
+2025-04-17T01:54:14.322648,HIPMATCH,192.168.1.20,172.16.0.3,user1,ssh,alert,hip_match_false
+2025-04-16T21:08:44.322648,METADATA,192.168.1.20,10.0.0.5,guest,web-browsing,drop,update_check
+2025-04-16T14:16:34.322648,HIPMATCH,192.168.1.20,192.168.1.20,admin,ssh,allow,hip_match_true
+2025-04-16T14:47:29.322648,TRAFFIC,172.16.0.3,10.0.0.5,guest,ssh,deny,traffic event occurred
+2025-04-16T12:48:01.322648,HIPMATCH,192.168.1.20,10.0.0.5,user2,ssl,deny,hip_match_false
+2025-04-16T13:00:19.322648,SYSTEM,10.0.0.5,192.168.1.20,admin,ssl,alert,reboot
+2025-04-16T03:09:10.322648,THREAT,10.0.0.5,172.16.0.3,user2,ssl,deny,threat event occurred
+2025-04-16T16:07:08.322648,SYSTEM,192.168.1.20,192.168.1.10,user1,web-browsing,alert,config_change
+2025-04-16T05:23:29.322648,SYSTEM,10.0.0.5,192.168.1.20,admin,ssh,drop,reboot
+2025-04-16T14:08:55.322648,SYSTEM,172.16.0.3,172.16.0.3,admin,ftp,allow,reboot
+2025-04-16T19:42:32.322648,HIPMATCH,192.168.1.10,10.0.0.5,user1,web-browsing,deny,hip_match_true
+2025-04-16T20:54:40.322648,THREAT,192.168.1.10,10.0.0.5,guest,ssh,allow,threat event occurred
+2025-04-16T22:20:53.322648,TRAFFIC,192.168.1.10,10.0.0.5,user2,web-browsing,deny,traffic event occurred
+2025-04-16T06:09:10.322648,SYSTEM,172.16.0.3,10.0.0.5,user2,ftp,drop,reboot
+2025-04-16T20:58:02.322648,HIPMATCH,10.0.0.5,10.0.0.5,guest,ftp,allow,hip_match_false
+2025-04-16T12:56:02.322648,USER,172.16.0.3,10.0.0.5,guest,ssh,drop,user event occurred
+2025-04-16T16:41:34.322648,TRAFFIC,172.16.0.3,172.16.0.3,user1,ftp,deny,traffic event occurred
+2025-04-17T02:29:09.322648,THREAT,192.168.1.20,192.168.1.10,user1,ftp,alert,threat event occurred
+2025-04-16T15:05:46.322648,HIPMATCH,192.168.1.10,192.168.1.20,user2,web-browsing,drop,hip_match_true
+2025-04-16T22:53:08.322648,THREAT,172.16.0.3,10.0.0.5,user1,ssl,alert,threat event occurred
+2025-04-17T01:50:40.322648,TRAFFIC,192.168.1.20,10.0.0.5,user1,ftp,deny,traffic event occurred
+2025-04-17T00:06:30.322648,THREAT,192.168.1.20,172.16.0.3,guest,web-browsing,allow,threat event occurred
+2025-04-16T23:17:09.322648,TRAFFIC,192.168.1.10,192.168.1.10,user1,ftp,allow,traffic event occurred
+2025-04-16T03:13:12.322648,TRAFFIC,192.168.1.10,192.168.1.10,user2,ssl,drop,traffic event occurred
+2025-04-16T15:10:16.322648,METADATA,192.168.1.10,192.168.1.10,admin,dns,alert,license_warning
+2025-04-16T16:05:02.322648,HIPMATCH,192.168.1.10,192.168.1.20,user1,ssl,drop,hip_match_false
+2025-04-16T09:47:20.322648,HIPMATCH,192.168.1.10,10.0.0.5,user1,ftp,allow,hip_match_false
+2025-04-16T18:02:02.322648,USER,172.16.0.3,10.0.0.5,user1,web-browsing,alert,user event occurred
+2025-04-16T23:36:41.322648,SRC,192.168.1.10,10.0.0.5,guest,ssh,allow,src event occurred
+2025-04-16T06:31:07.322648,SYSTEM,172.16.0.3,172.16.0.3,user1,ftp,alert,config_change
+2025-04-16T16:11:21.322648,THREAT,192.168.1.20,192.168.1.10,admin,ssh,deny,threat event occurred
+2025-04-16T11:06:03.322648,HIPMATCH,10.0.0.5,172.16.0.3,user2,dns,allow,hip_match_false
+2025-04-16T14:45:35.322648,METADATA,192.168.1.20,10.0.0.5,guest,ssh,alert,license_warning
+2025-04-16T18:18:55.322648,METADATA,192.168.1.10,10.0.0.5,admin,dns,drop,license_warning
+2025-04-16T14:43:37.322648,METADATA,10.0.0.5,172.16.0.3,user1,ssl,drop,update_check
+2025-04-16T10:33:20.322648,SYSTEM,10.0.0.5,172.16.0.3,guest,ssh,alert,interface_down
+2025-04-16T22:49:20.322648,SYSTEM,172.16.0.3,192.168.1.10,admin,web-browsing,allow,config_change
+2025-04-16T06:04:17.322648,SRC,192.168.1.20,10.0.0.5,user2,dns,drop,src event occurred
+2025-04-16T22:26:08.322648,USER,192.168.1.10,172.16.0.3,user1,ftp,alert,user event occurred
+2025-04-16T08:02:23.322648,THREAT,192.168.1.20,172.16.0.3,user2,dns,deny,threat event occurred
+2025-04-16T09:37:57.322648,THREAT,192.168.1.20,192.168.1.10,user2,ssl,allow,threat event occurred
+2025-04-16T15:53:58.322648,TRAFFIC,10.0.0.5,10.0.0.5,admin,dns,alert,traffic event occurred
+2025-04-16T19:05:01.322648,HIPMATCH,10.0.0.5,192.168.1.20,user2,web-browsing,deny,hip_match_false
+2025-04-16T17:26:56.322648,THREAT,10.0.0.5,172.16.0.3,user2,web-browsing,alert,threat event occurred
+2025-04-17T00:24:06.322648,SRC,192.168.1.10,192.168.1.20,admin,web-browsing,deny,src event occurred
+2025-04-16T07:21:07.322648,SRC,192.168.1.20,192.168.1.20,user1,dns,alert,src event occurred
+2025-04-16T23:12:42.322648,HIPMATCH,10.0.0.5,192.168.1.10,guest,dns,allow,hip_match_true
+2025-04-16T10:05:51.322648,METADATA,172.16.0.3,192.168.1.20,user2,ftp,allow,license_warning
+2025-04-16T11:21:03.322648,THREAT,192.168.1.20,172.16.0.3,guest,ssl,allow,threat event occurred
+2025-04-16T05:29:07.322648,USER,192.168.1.10,192.168.1.10,guest,ftp,alert,user event occurred
+2025-04-16T17:03:13.322648,METADATA,172.16.0.3,192.168.1.10,user1,ssh,drop,license_warning
+2025-04-16T18:35:52.322648,SYSTEM,192.168.1.10,172.16.0.3,user2,ssl,drop,interface_down
+2025-04-16T19:04:44.322648,SYSTEM,192.168.1.20,172.16.0.3,user1,web-browsing,alert,interface_down
+2025-04-16T06:59:41.322648,HIPMATCH,192.168.1.10,192.168.1.20,guest,ssh,allow,hip_match_true
+2025-04-17T00:45:45.322648,SYSTEM,192.168.1.20,192.168.1.10,user1,ssl,allow,reboot
+2025-04-16T12:39:37.322648,THREAT,172.16.0.3,10.0.0.5,user2,ftp,deny,threat event occurred
+2025-04-16T10:57:23.322648,THREAT,192.168.1.10,192.168.1.20,guest,web-browsing,allow,threat event occurred
+2025-04-17T00:07:01.322648,SYSTEM,10.0.0.5,10.0.0.5,user1,web-browsing,drop,config_change
+2025-04-16T12:13:11.322648,SRC,192.168.1.20,192.168.1.20,guest,ssh,alert,src event occurred
+2025-04-16T19:22:55.322648,USER,10.0.0.5,10.0.0.5,guest,dns,deny,user event occurred
+2025-04-16T22:31:50.322648,SYSTEM,172.16.0.3,10.0.0.5,user2,dns,drop,reboot
+2025-04-16T20:16:27.322648,USER,192.168.1.10,172.16.0.3,user2,web-browsing,deny,user event occurred
+2025-04-17T01:01:01.322648,TRAFFIC,172.16.0.3,172.16.0.3,admin,ssh,drop,traffic event occurred
+2025-04-16T11:42:44.322648,HIPMATCH,10.0.0.5,192.168.1.10,admin,ssh,allow,hip_match_true
+2025-04-16T06:47:18.322648,TRAFFIC,192.168.1.20,172.16.0.3,user1,dns,drop,traffic event occurred
+2025-04-16T05:37:36.322648,TRAFFIC,10.0.0.5,192.168.1.20,admin,web-browsing,alert,traffic event occurred
+2025-04-16T15:20:56.322648,TRAFFIC,172.16.0.3,10.0.0.5,user2,ssh,allow,traffic event occurred
+2025-04-16T06:22:26.322648,SRC,10.0.0.5,192.168.1.10,user1,ssl,drop,src event occurred
+2025-04-16T04:43:01.322648,METADATA,172.16.0.3,192.168.1.10,user2,ssh,drop,update_check
+2025-04-16T16:12:34.322648,THREAT,10.0.0.5,172.16.0.3,guest,ssl,alert,threat event occurred
+2025-04-16T17:51:57.322648,METADATA,192.168.1.20,192.168.1.20,user2,ssl,deny,update_check
+2025-04-16T05:56:48.322648,SRC,192.168.1.20,192.168.1.10,admin,ftp,drop,src event occurred
+2025-04-16T07:46:41.322648,THREAT,192.168.1.10,172.16.0.3,user1,ssh,deny,threat event occurred
+2025-04-16T13:18:20.322648,THREAT,192.168.1.20,172.16.0.3,user2,ftp,drop,threat event occurred
+2025-04-16T17:25:38.322648,THREAT,10.0.0.5,172.16.0.3,user2,ssh,allow,threat event occurred
+2025-04-16T21:36:09.322648,HIPMATCH,192.168.1.10,172.16.0.3,user2,ftp,alert,hip_match_true
+2025-04-16T18:12:16.322648,TRAFFIC,10.0.0.5,192.168.1.20,guest,ssh,allow,traffic event occurred
+2025-04-16T21:47:09.322648,USER,172.16.0.3,172.16.0.3,admin,dns,allow,user event occurred
+2025-04-16T11:14:00.322648,HIPMATCH,172.16.0.3,192.168.1.10,guest,dns,drop,hip_match_false
+2025-04-16T20:42:32.322648,THREAT,192.168.1.10,10.0.0.5,guest,web-browsing,drop,threat event occurred
+2025-04-16T22:19:49.322648,HIPMATCH,172.16.0.3,172.16.0.3,user1,dns,alert,hip_match_false
+2025-04-16T21:06:32.322648,THREAT,192.168.1.20,172.16.0.3,user1,ftp,drop,threat event occurred
+2025-04-16T17:15:30.322648,SRC,172.16.0.3,10.0.0.5,user2,web-browsing,allow,src event occurred
+2025-04-16T04:54:21.322648,THREAT,10.0.0.5,172.16.0.3,guest,web-browsing,drop,threat event occurred
+2025-04-16T13:42:01.322648,HIPMATCH,172.16.0.3,172.16.0.3,user1,ftp,allow,hip_match_false
+2025-04-16T12:32:08.322648,THREAT,192.168.1.10,192.168.1.10,user2,ftp,allow,threat event occurred
+2025-04-16T22:24:24.322648,USER,192.168.1.10,192.168.1.20,admin,dns,deny,user event occurred
+2025-04-16T12:38:56.322648,USER,172.16.0.3,192.168.1.20,admin,ssh,drop,user event occurred
+2025-04-16T23:20:13.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,ssl,alert,hip_match_false
+2025-04-16T20:25:45.322648,HIPMATCH,10.0.0.5,10.0.0.5,admin,ssl,deny,hip_match_false
+2025-04-16T09:51:10.322648,SRC,192.168.1.10,192.168.1.10,user1,web-browsing,drop,src event occurred
+2025-04-16T19:15:58.322648,HIPMATCH,172.16.0.3,192.168.1.10,user2,ssh,drop,hip_match_false
+2025-04-16T14:26:57.322648,METADATA,10.0.0.5,172.16.0.3,guest,ssh,drop,update_check
+2025-04-16T20:55:33.322648,SRC,172.16.0.3,192.168.1.20,user1,web-browsing,drop,src event occurred
+2025-04-16T04:57:32.322648,USER,192.168.1.10,192.168.1.10,user2,ssh,drop,user event occurred
+2025-04-16T16:05:57.322648,TRAFFIC,192.168.1.20,10.0.0.5,user2,dns,drop,traffic event occurred
+2025-04-16T03:17:53.322648,THREAT,10.0.0.5,172.16.0.3,user2,dns,deny,threat event occurred
+2025-04-16T21:13:51.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,dns,deny,hip_match_true
+2025-04-16T22:05:13.322648,METADATA,192.168.1.20,192.168.1.10,user1,ssl,deny,update_check
+2025-04-16T10:47:50.322648,THREAT,192.168.1.20,192.168.1.10,admin,ssh,alert,threat event occurred
+2025-04-16T03:21:27.322648,TRAFFIC,192.168.1.20,172.16.0.3,user2,dns,allow,traffic event occurred
+2025-04-17T00:03:16.322648,TRAFFIC,192.168.1.10,192.168.1.10,guest,ssh,allow,traffic event occurred
+2025-04-16T15:19:36.322648,TRAFFIC,192.168.1.10,192.168.1.10,user1,ftp,deny,traffic event occurred
+2025-04-16T10:05:49.322648,HIPMATCH,10.0.0.5,10.0.0.5,guest,ssh,drop,hip_match_true
+2025-04-16T19:20:12.322648,METADATA,192.168.1.20,192.168.1.10,user1,ftp,allow,license_warning
+2025-04-16T23:34:10.322648,TRAFFIC,10.0.0.5,10.0.0.5,user2,ssl,drop,traffic event occurred
+2025-04-16T22:45:48.322648,TRAFFIC,10.0.0.5,192.168.1.10,guest,ftp,drop,traffic event occurred
+2025-04-16T19:02:46.322648,THREAT,172.16.0.3,10.0.0.5,user1,ftp,drop,threat event occurred
+2025-04-16T05:46:10.322648,USER,10.0.0.5,192.168.1.10,admin,ftp,alert,user event occurred
+2025-04-16T08:14:24.322648,HIPMATCH,172.16.0.3,172.16.0.3,admin,ssl,allow,hip_match_false
+2025-04-16T18:04:43.322648,THREAT,172.16.0.3,192.168.1.10,admin,dns,drop,threat event occurred
+2025-04-16T15:08:13.322648,USER,192.168.1.20,192.168.1.20,admin,ssh,deny,user event occurred
+2025-04-16T20:33:35.322648,TRAFFIC,192.168.1.10,172.16.0.3,guest,ssl,deny,traffic event occurred
+2025-04-16T18:28:44.322648,THREAT,192.168.1.10,172.16.0.3,admin,dns,drop,threat event occurred
+2025-04-16T11:05:52.322648,METADATA,10.0.0.5,172.16.0.3,guest,ssl,drop,license_warning
+2025-04-16T08:27:17.322648,HIPMATCH,10.0.0.5,192.168.1.20,user2,ssh,deny,hip_match_false
+2025-04-16T10:37:22.322648,USER,10.0.0.5,192.168.1.20,user1,dns,deny,user event occurred
+2025-04-16T04:59:53.322648,USER,10.0.0.5,172.16.0.3,guest,ssl,allow,user event occurred
+2025-04-16T21:58:03.322648,HIPMATCH,10.0.0.5,192.168.1.10,admin,ssh,alert,hip_match_true
+2025-04-16T12:46:11.322648,TRAFFIC,192.168.1.10,172.16.0.3,admin,dns,deny,traffic event occurred
+2025-04-16T03:50:11.322648,TRAFFIC,10.0.0.5,192.168.1.10,user2,ftp,allow,traffic event occurred
+2025-04-17T01:04:34.322648,HIPMATCH,192.168.1.20,10.0.0.5,guest,web-browsing,alert,hip_match_true
+2025-04-16T16:33:23.322648,THREAT,192.168.1.20,10.0.0.5,user1,ftp,deny,threat event occurred
+2025-04-16T22:37:02.322648,THREAT,192.168.1.10,10.0.0.5,user2,web-browsing,alert,threat event occurred
+2025-04-16T03:37:45.322648,SYSTEM,192.168.1.20,10.0.0.5,guest,web-browsing,allow,config_change
+2025-04-16T21:54:16.322648,HIPMATCH,10.0.0.5,10.0.0.5,user2,ssl,drop,hip_match_false
+2025-04-17T01:34:12.322648,SYSTEM,10.0.0.5,192.168.1.10,user1,ftp,alert,config_change
+2025-04-16T02:42:48.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,ssh,allow,config_change
+2025-04-16T15:50:05.322648,SRC,192.168.1.20,192.168.1.20,guest,web-browsing,deny,src event occurred
+2025-04-16T16:45:53.322648,TRAFFIC,10.0.0.5,192.168.1.20,user2,web-browsing,allow,traffic event occurred
+2025-04-16T10:45:02.322648,HIPMATCH,192.168.1.10,192.168.1.10,user1,web-browsing,alert,hip_match_false
+2025-04-16T06:43:33.322648,THREAT,192.168.1.20,172.16.0.3,user1,dns,allow,threat event occurred
+2025-04-16T11:07:10.322648,THREAT,192.168.1.20,172.16.0.3,guest,ftp,deny,threat event occurred
+2025-04-16T17:05:15.322648,SRC,172.16.0.3,192.168.1.20,user2,ssh,drop,src event occurred
+2025-04-16T05:16:00.322648,METADATA,192.168.1.10,10.0.0.5,guest,web-browsing,drop,update_check
+2025-04-16T21:25:16.322648,METADATA,10.0.0.5,192.168.1.10,guest,web-browsing,drop,license_warning
+2025-04-16T06:39:30.322648,HIPMATCH,172.16.0.3,10.0.0.5,guest,ssl,drop,hip_match_true
+2025-04-16T05:14:28.322648,TRAFFIC,10.0.0.5,192.168.1.10,user1,ftp,allow,traffic event occurred
+2025-04-16T23:53:00.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,web-browsing,allow,hip_match_false
+2025-04-17T02:11:39.322648,SYSTEM,192.168.1.20,10.0.0.5,user1,ssh,drop,reboot
+2025-04-16T02:59:20.322648,METADATA,192.168.1.10,192.168.1.10,user2,dns,allow,update_check
+2025-04-16T05:47:01.322648,METADATA,192.168.1.20,192.168.1.20,guest,web-browsing,allow,update_check
+2025-04-16T15:57:12.322648,THREAT,10.0.0.5,10.0.0.5,admin,ftp,deny,threat event occurred
+2025-04-16T04:58:00.322648,HIPMATCH,10.0.0.5,172.16.0.3,user2,ssl,drop,hip_match_false
+2025-04-16T20:34:01.322648,USER,192.168.1.10,192.168.1.10,user1,web-browsing,alert,user event occurred
+2025-04-16T16:40:35.322648,SRC,172.16.0.3,192.168.1.20,user2,ftp,alert,src event occurred
+2025-04-16T05:09:16.322648,TRAFFIC,192.168.1.10,192.168.1.10,guest,web-browsing,alert,traffic event occurred
+2025-04-16T09:23:19.322648,METADATA,10.0.0.5,192.168.1.10,admin,ftp,alert,license_warning
+2025-04-16T21:33:42.322648,SRC,10.0.0.5,10.0.0.5,admin,ftp,drop,src event occurred
+2025-04-16T11:02:09.322648,SYSTEM,10.0.0.5,10.0.0.5,user1,ssh,alert,interface_down
+2025-04-17T01:28:56.322648,METADATA,172.16.0.3,192.168.1.20,user1,ssh,deny,update_check
+2025-04-16T15:29:58.322648,USER,192.168.1.20,192.168.1.10,admin,ssh,drop,user event occurred
+2025-04-16T18:50:49.322648,TRAFFIC,10.0.0.5,10.0.0.5,admin,ftp,deny,traffic event occurred
+2025-04-16T16:09:06.322648,THREAT,192.168.1.10,172.16.0.3,guest,ftp,allow,threat event occurred
+2025-04-16T19:54:20.322648,METADATA,172.16.0.3,192.168.1.20,admin,ssl,deny,update_check
+2025-04-16T17:37:05.322648,HIPMATCH,192.168.1.20,192.168.1.20,user1,ssl,alert,hip_match_true
+2025-04-16T21:07:13.322648,HIPMATCH,172.16.0.3,192.168.1.20,admin,ssl,allow,hip_match_false
+2025-04-16T23:25:10.322648,TRAFFIC,172.16.0.3,172.16.0.3,guest,web-browsing,allow,traffic event occurred
+2025-04-16T22:14:45.322648,USER,192.168.1.20,192.168.1.20,user1,ftp,drop,user event occurred
+2025-04-16T09:01:06.322648,TRAFFIC,192.168.1.10,192.168.1.10,admin,dns,alert,traffic event occurred
+2025-04-16T04:43:58.322648,METADATA,192.168.1.10,192.168.1.20,admin,dns,allow,license_warning
+2025-04-17T01:36:11.322648,SYSTEM,192.168.1.10,10.0.0.5,user1,ftp,deny,reboot
+2025-04-16T21:25:57.322648,SRC,192.168.1.10,10.0.0.5,user1,ftp,allow,src event occurred
+2025-04-16T12:11:50.322648,SRC,192.168.1.10,172.16.0.3,user2,ftp,alert,src event occurred
+2025-04-16T04:07:19.322648,HIPMATCH,172.16.0.3,192.168.1.10,admin,ftp,drop,hip_match_false
+2025-04-16T14:17:14.322648,SRC,192.168.1.10,172.16.0.3,admin,ssl,alert,src event occurred
+2025-04-17T01:58:42.322648,HIPMATCH,192.168.1.10,10.0.0.5,user2,ftp,deny,hip_match_true
+2025-04-16T21:28:31.322648,THREAT,192.168.1.10,10.0.0.5,user1,ssl,alert,threat event occurred
+2025-04-16T07:29:33.322648,USER,172.16.0.3,192.168.1.10,admin,ssh,allow,user event occurred
+2025-04-17T02:11:16.322648,TRAFFIC,172.16.0.3,192.168.1.20,user2,ssl,allow,traffic event occurred
+2025-04-16T14:01:37.322648,SYSTEM,10.0.0.5,192.168.1.20,guest,ssh,drop,config_change
+2025-04-16T16:35:16.322648,THREAT,192.168.1.20,192.168.1.20,guest,ssh,drop,threat event occurred
+2025-04-17T01:52:54.322648,TRAFFIC,10.0.0.5,192.168.1.10,user2,dns,drop,traffic event occurred
+2025-04-16T09:55:54.322648,SYSTEM,172.16.0.3,192.168.1.10,user2,web-browsing,alert,reboot
+2025-04-16T12:58:00.322648,HIPMATCH,192.168.1.10,192.168.1.10,user1,ssl,allow,hip_match_false
+2025-04-16T09:42:59.322648,METADATA,172.16.0.3,192.168.1.20,user2,ssh,deny,license_warning
+2025-04-17T00:17:15.322648,SYSTEM,192.168.1.20,10.0.0.5,admin,ssl,allow,reboot
+2025-04-16T15:18:04.322648,TRAFFIC,192.168.1.10,192.168.1.10,user2,web-browsing,drop,traffic event occurred
+2025-04-16T02:53:41.322648,TRAFFIC,10.0.0.5,192.168.1.10,user1,ssl,alert,traffic event occurred
+2025-04-16T04:21:02.322648,TRAFFIC,10.0.0.5,192.168.1.10,user1,ssl,allow,traffic event occurred
+2025-04-16T07:58:53.322648,THREAT,192.168.1.20,10.0.0.5,admin,ftp,deny,threat event occurred
+2025-04-16T13:54:57.322648,HIPMATCH,10.0.0.5,192.168.1.10,guest,ssh,alert,hip_match_true
+2025-04-17T01:30:37.322648,SYSTEM,10.0.0.5,192.168.1.10,admin,ssl,allow,config_change
+2025-04-16T13:51:49.322648,TRAFFIC,172.16.0.3,172.16.0.3,guest,ftp,alert,traffic event occurred
+2025-04-16T02:58:18.322648,HIPMATCH,192.168.1.10,10.0.0.5,user1,dns,deny,hip_match_true
+2025-04-16T18:23:45.322648,METADATA,192.168.1.20,192.168.1.20,user2,web-browsing,allow,license_warning
+2025-04-16T16:53:41.322648,METADATA,172.16.0.3,192.168.1.20,user2,dns,deny,license_warning
+2025-04-16T04:52:32.322648,HIPMATCH,192.168.1.20,192.168.1.20,admin,dns,allow,hip_match_false
+2025-04-16T16:53:08.322648,HIPMATCH,10.0.0.5,172.16.0.3,user1,ssl,drop,hip_match_false
+2025-04-16T10:43:49.322648,SYSTEM,192.168.1.20,10.0.0.5,guest,ftp,alert,interface_down
+2025-04-16T06:29:43.322648,SRC,192.168.1.20,172.16.0.3,user1,dns,drop,src event occurred
+2025-04-16T13:48:12.322648,METADATA,192.168.1.10,10.0.0.5,user2,dns,alert,license_warning
+2025-04-16T15:40:24.322648,USER,192.168.1.20,192.168.1.20,user1,web-browsing,drop,user event occurred
+2025-04-16T21:01:22.322648,TRAFFIC,192.168.1.20,192.168.1.10,user1,ftp,allow,traffic event occurred
+2025-04-16T13:04:40.322648,THREAT,192.168.1.20,10.0.0.5,admin,ssh,drop,threat event occurred
+2025-04-16T05:59:22.322648,SYSTEM,172.16.0.3,192.168.1.20,guest,ssl,allow,config_change
+2025-04-16T03:25:49.322648,THREAT,192.168.1.10,10.0.0.5,admin,ssl,drop,threat event occurred
+2025-04-17T01:29:54.322648,USER,192.168.1.20,10.0.0.5,user2,ssl,drop,user event occurred
+2025-04-16T19:04:08.322648,SRC,172.16.0.3,172.16.0.3,user1,dns,allow,src event occurred
+2025-04-16T16:25:25.322648,USER,10.0.0.5,192.168.1.20,user1,ssl,alert,user event occurred
+2025-04-16T07:00:01.322648,TRAFFIC,10.0.0.5,192.168.1.20,admin,ftp,deny,traffic event occurred
+2025-04-16T06:11:48.322648,USER,10.0.0.5,10.0.0.5,user2,ftp,alert,user event occurred
+2025-04-16T18:58:58.322648,METADATA,192.168.1.20,172.16.0.3,admin,ssl,deny,license_warning
+2025-04-16T11:29:53.322648,TRAFFIC,172.16.0.3,172.16.0.3,guest,ftp,drop,traffic event occurred
+2025-04-16T05:50:31.322648,SRC,192.168.1.20,172.16.0.3,user2,ssl,drop,src event occurred
+2025-04-17T00:23:38.322648,THREAT,192.168.1.10,172.16.0.3,user1,dns,drop,threat event occurred
+2025-04-16T19:55:16.322648,TRAFFIC,10.0.0.5,172.16.0.3,user2,ftp,allow,traffic event occurred
+2025-04-16T11:16:51.322648,USER,192.168.1.20,192.168.1.20,admin,dns,allow,user event occurred
+2025-04-16T10:33:36.322648,USER,172.16.0.3,192.168.1.20,user1,web-browsing,deny,user event occurred
+2025-04-16T14:33:27.322648,HIPMATCH,192.168.1.10,192.168.1.10,user2,dns,deny,hip_match_false
+2025-04-16T23:41:17.322648,TRAFFIC,192.168.1.20,192.168.1.20,user2,dns,alert,traffic event occurred
+2025-04-16T06:07:49.322648,USER,172.16.0.3,192.168.1.10,guest,dns,drop,user event occurred
+2025-04-17T01:13:14.322648,HIPMATCH,10.0.0.5,192.168.1.20,user1,ssh,alert,hip_match_true
+2025-04-16T10:11:20.322648,THREAT,192.168.1.20,172.16.0.3,user2,web-browsing,drop,threat event occurred
+2025-04-16T06:04:51.322648,TRAFFIC,192.168.1.10,172.16.0.3,guest,web-browsing,allow,traffic event occurred
+2025-04-17T02:30:39.322648,METADATA,192.168.1.20,10.0.0.5,user1,ssl,deny,update_check
+2025-04-16T10:49:39.322648,USER,192.168.1.10,172.16.0.3,admin,web-browsing,deny,user event occurred
+2025-04-16T14:55:43.322648,TRAFFIC,192.168.1.10,192.168.1.20,user1,ftp,drop,traffic event occurred
+2025-04-16T14:22:58.322648,SYSTEM,10.0.0.5,192.168.1.20,guest,ssl,allow,config_change
+2025-04-16T14:55:38.322648,HIPMATCH,192.168.1.10,192.168.1.10,user1,dns,drop,hip_match_true
+2025-04-16T23:55:46.322648,USER,10.0.0.5,192.168.1.20,guest,dns,drop,user event occurred
+2025-04-16T23:10:35.322648,HIPMATCH,172.16.0.3,192.168.1.20,user1,web-browsing,deny,hip_match_false
+2025-04-17T00:21:13.322648,SRC,192.168.1.10,172.16.0.3,user2,dns,drop,src event occurred
+2025-04-16T13:29:03.322648,USER,172.16.0.3,192.168.1.10,admin,ftp,drop,user event occurred
+2025-04-16T11:19:39.322648,TRAFFIC,10.0.0.5,192.168.1.20,guest,web-browsing,drop,traffic event occurred
+2025-04-16T06:19:47.322648,TRAFFIC,172.16.0.3,192.168.1.20,user1,ssl,deny,traffic event occurred
+2025-04-16T06:25:04.322648,SYSTEM,192.168.1.20,10.0.0.5,guest,ssh,drop,reboot
+2025-04-16T09:39:56.322648,SRC,10.0.0.5,172.16.0.3,user2,ssl,allow,src event occurred
+2025-04-16T11:39:38.322648,SYSTEM,172.16.0.3,192.168.1.10,guest,ssl,drop,config_change
+2025-04-17T01:20:11.322648,SRC,192.168.1.10,10.0.0.5,user1,dns,alert,src event occurred
+2025-04-16T20:15:16.322648,USER,10.0.0.5,192.168.1.20,admin,dns,drop,user event occurred
+2025-04-16T19:04:28.322648,THREAT,192.168.1.10,192.168.1.20,admin,ftp,deny,threat event occurred
+2025-04-16T10:31:15.322648,SYSTEM,192.168.1.20,10.0.0.5,admin,ssl,deny,config_change
+2025-04-16T06:22:01.322648,TRAFFIC,172.16.0.3,192.168.1.10,user1,dns,deny,traffic event occurred
+2025-04-17T01:49:32.322648,USER,192.168.1.10,192.168.1.20,user1,ftp,drop,user event occurred
+2025-04-16T19:14:12.322648,TRAFFIC,172.16.0.3,172.16.0.3,user1,ssh,alert,traffic event occurred
+2025-04-17T00:09:54.322648,THREAT,172.16.0.3,192.168.1.20,admin,ssl,allow,threat event occurred
+2025-04-17T02:08:59.322648,THREAT,192.168.1.10,192.168.1.10,user2,ssl,allow,threat event occurred
+2025-04-16T04:40:33.322648,METADATA,10.0.0.5,192.168.1.10,user2,dns,alert,license_warning
+2025-04-16T09:28:33.322648,THREAT,192.168.1.10,192.168.1.10,user2,web-browsing,deny,threat event occurred
+2025-04-16T06:06:48.322648,METADATA,172.16.0.3,172.16.0.3,admin,ssl,allow,update_check
+2025-04-17T02:11:28.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,ftp,allow,hip_match_true
+2025-04-16T09:22:46.322648,USER,172.16.0.3,172.16.0.3,admin,ssl,allow,user event occurred
+2025-04-16T22:10:22.322648,USER,192.168.1.10,192.168.1.10,guest,ssh,allow,user event occurred
+2025-04-16T05:12:32.322648,THREAT,172.16.0.3,10.0.0.5,guest,ssl,drop,threat event occurred
+2025-04-16T07:05:59.322648,SRC,10.0.0.5,192.168.1.20,user1,ssl,alert,src event occurred
+2025-04-16T15:43:59.322648,HIPMATCH,172.16.0.3,192.168.1.10,user2,ssl,allow,hip_match_true
+2025-04-16T04:29:12.322648,SYSTEM,172.16.0.3,192.168.1.20,user2,dns,alert,reboot
+2025-04-16T22:36:34.322648,THREAT,10.0.0.5,192.168.1.10,admin,web-browsing,drop,threat event occurred
+2025-04-17T01:29:02.322648,METADATA,192.168.1.10,10.0.0.5,guest,ssh,deny,license_warning
+2025-04-16T05:31:06.322648,SYSTEM,172.16.0.3,192.168.1.10,user2,ftp,allow,reboot
+2025-04-16T14:44:46.322648,THREAT,172.16.0.3,172.16.0.3,guest,ssh,drop,threat event occurred
+2025-04-16T18:06:57.322648,HIPMATCH,192.168.1.20,192.168.1.10,user2,ssl,alert,hip_match_false
+2025-04-16T05:00:39.322648,THREAT,10.0.0.5,172.16.0.3,user1,ssh,drop,threat event occurred
+2025-04-17T02:27:54.322648,HIPMATCH,10.0.0.5,192.168.1.10,user2,dns,drop,hip_match_false
+2025-04-16T10:26:10.322648,HIPMATCH,192.168.1.10,172.16.0.3,admin,web-browsing,alert,hip_match_true
+2025-04-17T02:26:24.322648,USER,10.0.0.5,10.0.0.5,user2,ssl,drop,user event occurred
+2025-04-16T04:52:28.322648,SRC,192.168.1.20,192.168.1.10,user2,ftp,deny,src event occurred
+2025-04-16T22:12:50.322648,USER,192.168.1.20,10.0.0.5,user2,dns,allow,user event occurred
+2025-04-16T10:39:56.322648,HIPMATCH,192.168.1.20,10.0.0.5,user1,web-browsing,deny,hip_match_false
+2025-04-16T19:55:01.322648,TRAFFIC,192.168.1.20,172.16.0.3,user1,web-browsing,alert,traffic event occurred
+2025-04-16T18:40:44.322648,METADATA,10.0.0.5,192.168.1.10,user2,ssl,alert,license_warning
+2025-04-16T16:04:05.322648,TRAFFIC,10.0.0.5,172.16.0.3,guest,ftp,deny,traffic event occurred
+2025-04-16T03:30:22.322648,TRAFFIC,10.0.0.5,172.16.0.3,guest,ssl,drop,traffic event occurred
+2025-04-16T09:16:09.322648,HIPMATCH,192.168.1.20,172.16.0.3,admin,dns,allow,hip_match_false
+2025-04-16T19:09:25.322648,TRAFFIC,192.168.1.10,192.168.1.20,user1,ssh,allow,traffic event occurred
+2025-04-16T22:03:54.322648,METADATA,172.16.0.3,172.16.0.3,guest,ssh,deny,license_warning
+2025-04-16T23:37:25.322648,HIPMATCH,10.0.0.5,192.168.1.10,user1,dns,alert,hip_match_true
+2025-04-16T13:40:05.322648,USER,172.16.0.3,10.0.0.5,user2,ssh,drop,user event occurred
+2025-04-16T05:17:41.322648,SYSTEM,192.168.1.20,172.16.0.3,user1,web-browsing,deny,config_change
+2025-04-16T15:25:35.322648,HIPMATCH,10.0.0.5,10.0.0.5,admin,dns,drop,hip_match_true
+2025-04-16T23:31:08.322648,SRC,192.168.1.10,192.168.1.10,guest,ftp,alert,src event occurred
+2025-04-16T08:46:27.322648,METADATA,192.168.1.10,10.0.0.5,user1,ftp,allow,license_warning
+2025-04-16T23:16:43.322648,METADATA,172.16.0.3,192.168.1.20,admin,ssh,drop,update_check
+2025-04-16T23:38:10.322648,USER,192.168.1.20,192.168.1.10,admin,ssl,drop,user event occurred
+2025-04-16T23:24:21.322648,THREAT,10.0.0.5,192.168.1.20,guest,web-browsing,alert,threat event occurred
+2025-04-16T16:49:41.322648,METADATA,10.0.0.5,192.168.1.20,guest,ssl,drop,update_check
+2025-04-17T01:38:28.322648,USER,10.0.0.5,172.16.0.3,guest,ssh,alert,user event occurred
+2025-04-17T01:23:34.322648,TRAFFIC,192.168.1.10,172.16.0.3,user2,dns,deny,traffic event occurred
+2025-04-16T19:25:52.322648,TRAFFIC,172.16.0.3,10.0.0.5,user2,ftp,alert,traffic event occurred
+2025-04-16T17:04:47.322648,THREAT,192.168.1.10,192.168.1.10,user1,web-browsing,allow,threat event occurred
+2025-04-16T19:17:47.322648,METADATA,172.16.0.3,172.16.0.3,guest,web-browsing,alert,update_check
+2025-04-16T08:27:23.322648,SYSTEM,192.168.1.20,172.16.0.3,guest,dns,drop,interface_down
+2025-04-16T19:39:47.322648,THREAT,192.168.1.20,172.16.0.3,guest,ssh,alert,threat event occurred
+2025-04-17T00:10:30.322648,SRC,10.0.0.5,192.168.1.20,guest,ftp,drop,src event occurred
+2025-04-17T01:15:18.322648,HIPMATCH,192.168.1.10,192.168.1.20,user2,dns,drop,hip_match_true
+2025-04-16T09:22:59.322648,SYSTEM,192.168.1.20,192.168.1.10,guest,ftp,drop,reboot
+2025-04-16T23:37:39.322648,TRAFFIC,10.0.0.5,192.168.1.20,guest,ssl,alert,traffic event occurred
+2025-04-17T02:26:22.322648,USER,10.0.0.5,10.0.0.5,guest,ssh,allow,user event occurred
+2025-04-16T12:41:50.322648,TRAFFIC,192.168.1.10,192.168.1.10,guest,ssl,deny,traffic event occurred
+2025-04-16T16:22:00.322648,SRC,172.16.0.3,192.168.1.20,guest,ssh,deny,src event occurred
+2025-04-16T18:34:59.322648,USER,192.168.1.10,172.16.0.3,guest,web-browsing,allow,user event occurred
+2025-04-16T22:46:51.322648,TRAFFIC,192.168.1.10,172.16.0.3,guest,ftp,alert,traffic event occurred
+2025-04-16T14:53:27.322648,METADATA,172.16.0.3,192.168.1.20,user2,ssh,allow,update_check
+2025-04-17T01:40:33.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,ftp,alert,reboot
+2025-04-16T09:15:35.322648,USER,192.168.1.20,10.0.0.5,guest,ftp,drop,user event occurred
+2025-04-16T20:53:07.322648,HIPMATCH,172.16.0.3,192.168.1.10,guest,web-browsing,allow,hip_match_false
+2025-04-16T14:48:19.322648,THREAT,192.168.1.10,10.0.0.5,user2,ssl,drop,threat event occurred
+2025-04-16T05:13:12.322648,THREAT,172.16.0.3,192.168.1.10,guest,ssh,drop,threat event occurred
+2025-04-16T19:42:15.322648,TRAFFIC,192.168.1.20,172.16.0.3,user1,dns,drop,traffic event occurred
+2025-04-16T15:19:51.322648,HIPMATCH,172.16.0.3,172.16.0.3,admin,ftp,drop,hip_match_false
+2025-04-16T05:14:09.322648,TRAFFIC,10.0.0.5,192.168.1.20,admin,ssh,deny,traffic event occurred
+2025-04-16T16:37:59.322648,METADATA,192.168.1.20,192.168.1.10,user1,ftp,deny,license_warning
+2025-04-16T11:30:56.322648,USER,192.168.1.10,192.168.1.20,user1,web-browsing,deny,user event occurred
+2025-04-16T20:00:36.322648,SYSTEM,172.16.0.3,10.0.0.5,admin,ssl,alert,reboot
+2025-04-16T09:04:54.322648,HIPMATCH,172.16.0.3,172.16.0.3,user2,web-browsing,alert,hip_match_false
+2025-04-16T22:42:19.322648,USER,10.0.0.5,172.16.0.3,guest,ssh,alert,user event occurred
+2025-04-16T17:03:07.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,dns,allow,config_change
+2025-04-16T11:59:07.322648,SRC,192.168.1.10,172.16.0.3,guest,dns,alert,src event occurred
+2025-04-16T17:05:53.322648,HIPMATCH,192.168.1.10,192.168.1.10,user1,dns,drop,hip_match_false
+2025-04-16T18:31:56.322648,TRAFFIC,192.168.1.10,192.168.1.20,user2,ssh,drop,traffic event occurred
+2025-04-16T08:26:52.322648,TRAFFIC,192.168.1.10,172.16.0.3,guest,ssl,drop,traffic event occurred
+2025-04-17T01:37:02.322648,THREAT,192.168.1.10,192.168.1.20,user1,ssh,alert,threat event occurred
+2025-04-17T01:37:04.322648,METADATA,172.16.0.3,10.0.0.5,user2,ssh,deny,license_warning
+2025-04-16T18:54:11.322648,THREAT,192.168.1.20,192.168.1.20,user2,ssl,allow,threat event occurred
+2025-04-16T16:39:37.322648,SYSTEM,192.168.1.20,10.0.0.5,user2,dns,allow,reboot
+2025-04-16T22:31:49.322648,SYSTEM,192.168.1.10,172.16.0.3,user2,ssh,allow,interface_down
+2025-04-16T03:33:25.322648,METADATA,192.168.1.10,10.0.0.5,guest,web-browsing,drop,license_warning
+2025-04-17T00:27:10.322648,THREAT,192.168.1.10,10.0.0.5,user2,ssl,alert,threat event occurred
+2025-04-16T20:38:50.322648,HIPMATCH,172.16.0.3,192.168.1.20,user2,ssl,alert,hip_match_true
+2025-04-16T23:35:41.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,ssl,drop,interface_down
+2025-04-17T00:13:58.322648,SRC,192.168.1.10,192.168.1.10,guest,ftp,alert,src event occurred
+2025-04-16T20:29:49.322648,USER,192.168.1.20,10.0.0.5,admin,ssh,drop,user event occurred
+2025-04-16T17:16:29.322648,USER,10.0.0.5,192.168.1.10,user1,dns,allow,user event occurred
+2025-04-16T22:26:44.322648,SRC,192.168.1.10,10.0.0.5,admin,ssl,deny,src event occurred
+2025-04-16T10:29:16.322648,TRAFFIC,192.168.1.20,192.168.1.20,user2,ssh,deny,traffic event occurred
+2025-04-17T00:50:41.322648,HIPMATCH,172.16.0.3,192.168.1.20,user1,dns,alert,hip_match_true
+2025-04-16T08:14:34.322648,THREAT,10.0.0.5,10.0.0.5,guest,ftp,deny,threat event occurred
+2025-04-16T08:16:56.322648,SRC,192.168.1.20,192.168.1.10,admin,ssl,drop,src event occurred
+2025-04-16T08:26:27.322648,THREAT,192.168.1.10,192.168.1.20,admin,dns,allow,threat event occurred
+2025-04-16T13:53:12.322648,TRAFFIC,192.168.1.20,192.168.1.20,admin,dns,allow,traffic event occurred
+2025-04-16T08:06:34.322648,HIPMATCH,192.168.1.20,172.16.0.3,user2,dns,deny,hip_match_true
+2025-04-16T06:43:57.322648,HIPMATCH,10.0.0.5,10.0.0.5,admin,ssh,alert,hip_match_false
+2025-04-16T23:20:55.322648,METADATA,172.16.0.3,172.16.0.3,guest,ssl,allow,update_check
+2025-04-16T09:04:37.322648,HIPMATCH,192.168.1.20,192.168.1.20,user1,ssl,allow,hip_match_false
+2025-04-16T23:08:08.322648,METADATA,192.168.1.10,192.168.1.10,user2,ftp,drop,license_warning
+2025-04-16T11:38:26.322648,USER,192.168.1.10,192.168.1.10,user1,ssh,allow,user event occurred
+2025-04-16T09:43:56.322648,SRC,172.16.0.3,10.0.0.5,user1,ssh,alert,src event occurred
+2025-04-16T09:50:19.322648,METADATA,192.168.1.10,10.0.0.5,user1,dns,deny,license_warning
+2025-04-16T09:54:58.322648,THREAT,172.16.0.3,192.168.1.20,guest,dns,allow,threat event occurred
+2025-04-16T10:33:14.322648,SRC,192.168.1.20,192.168.1.10,user2,dns,drop,src event occurred
+2025-04-16T08:52:13.322648,THREAT,172.16.0.3,172.16.0.3,admin,ssh,drop,threat event occurred
+2025-04-17T00:17:33.322648,USER,192.168.1.10,192.168.1.10,user1,ssl,alert,user event occurred
+2025-04-16T18:00:37.322648,METADATA,172.16.0.3,172.16.0.3,guest,dns,deny,license_warning
+2025-04-16T22:00:57.322648,TRAFFIC,172.16.0.3,192.168.1.20,guest,ssh,deny,traffic event occurred
+2025-04-16T15:51:57.322648,USER,192.168.1.20,192.168.1.20,admin,ssh,allow,user event occurred
+2025-04-16T08:07:47.322648,USER,10.0.0.5,192.168.1.10,guest,dns,alert,user event occurred
+2025-04-16T07:33:00.322648,SRC,172.16.0.3,172.16.0.3,admin,dns,deny,src event occurred
+2025-04-16T12:28:05.322648,TRAFFIC,172.16.0.3,172.16.0.3,guest,ssh,alert,traffic event occurred
+2025-04-16T05:30:43.322648,THREAT,192.168.1.20,10.0.0.5,guest,ssl,drop,threat event occurred
+2025-04-16T12:19:08.322648,SYSTEM,192.168.1.20,192.168.1.10,admin,ftp,alert,reboot
+2025-04-16T21:12:18.322648,SYSTEM,10.0.0.5,192.168.1.10,user1,web-browsing,drop,reboot
+2025-04-16T16:36:38.322648,THREAT,10.0.0.5,172.16.0.3,guest,ssh,alert,threat event occurred
+2025-04-16T06:45:06.322648,USER,172.16.0.3,172.16.0.3,user2,dns,deny,user event occurred
+2025-04-16T03:57:15.322648,TRAFFIC,192.168.1.20,172.16.0.3,guest,ssh,deny,traffic event occurred
+2025-04-17T02:23:33.322648,HIPMATCH,192.168.1.20,172.16.0.3,admin,ssl,alert,hip_match_true
+2025-04-16T12:04:23.322648,USER,10.0.0.5,172.16.0.3,user2,dns,deny,user event occurred
+2025-04-16T20:44:05.322648,SRC,192.168.1.10,10.0.0.5,admin,ssl,deny,src event occurred
+2025-04-16T03:43:33.322648,THREAT,192.168.1.20,172.16.0.3,user1,ssl,drop,threat event occurred
+2025-04-16T17:44:20.322648,THREAT,192.168.1.20,10.0.0.5,guest,dns,allow,threat event occurred
+2025-04-16T18:33:24.322648,HIPMATCH,172.16.0.3,10.0.0.5,user2,ssl,deny,hip_match_true
+2025-04-16T08:32:59.322648,THREAT,192.168.1.20,172.16.0.3,user2,ssh,allow,threat event occurred
+2025-04-17T00:12:58.322648,USER,192.168.1.20,10.0.0.5,user2,ftp,drop,user event occurred
+2025-04-16T13:21:44.322648,TRAFFIC,192.168.1.20,192.168.1.20,user2,ssh,drop,traffic event occurred
+2025-04-16T13:13:51.322648,USER,172.16.0.3,192.168.1.20,user2,ssh,deny,user event occurred
+2025-04-16T10:07:31.322648,METADATA,10.0.0.5,172.16.0.3,guest,dns,drop,update_check
+2025-04-16T05:34:17.322648,SRC,192.168.1.20,192.168.1.20,guest,dns,alert,src event occurred
+2025-04-17T02:32:52.322648,SYSTEM,192.168.1.10,192.168.1.20,admin,web-browsing,allow,interface_down
+2025-04-16T09:14:07.322648,METADATA,192.168.1.10,10.0.0.5,user1,dns,alert,license_warning
+2025-04-16T11:29:55.322648,USER,172.16.0.3,192.168.1.20,guest,ssl,deny,user event occurred
+2025-04-16T14:19:31.322648,THREAT,192.168.1.20,192.168.1.10,user1,web-browsing,deny,threat event occurred
+2025-04-16T06:17:37.322648,SRC,10.0.0.5,172.16.0.3,admin,dns,drop,src event occurred
+2025-04-17T00:05:47.322648,SYSTEM,192.168.1.20,192.168.1.10,user1,dns,deny,config_change
+2025-04-16T16:51:10.322648,USER,172.16.0.3,192.168.1.20,user1,web-browsing,deny,user event occurred
+2025-04-16T22:46:44.322648,SRC,172.16.0.3,10.0.0.5,guest,dns,allow,src event occurred
+2025-04-16T03:45:10.322648,HIPMATCH,192.168.1.20,172.16.0.3,guest,dns,alert,hip_match_true
+2025-04-16T04:40:26.322648,METADATA,192.168.1.10,172.16.0.3,guest,ssh,deny,license_warning
+2025-04-16T23:24:52.322648,TRAFFIC,192.168.1.20,172.16.0.3,admin,ftp,alert,traffic event occurred
+2025-04-17T00:19:08.322648,HIPMATCH,192.168.1.10,172.16.0.3,admin,ssl,allow,hip_match_true
+2025-04-16T22:19:18.322648,HIPMATCH,192.168.1.20,192.168.1.10,user1,web-browsing,alert,hip_match_true
+2025-04-16T06:38:56.322648,SYSTEM,172.16.0.3,172.16.0.3,admin,web-browsing,drop,reboot
+2025-04-16T04:16:16.322648,SYSTEM,10.0.0.5,192.168.1.20,guest,ssh,deny,config_change
+2025-04-16T13:36:52.322648,TRAFFIC,192.168.1.10,172.16.0.3,admin,ftp,alert,traffic event occurred
+2025-04-16T15:43:26.322648,SRC,192.168.1.20,192.168.1.10,user2,ssl,deny,src event occurred
+2025-04-16T11:39:13.322648,THREAT,10.0.0.5,192.168.1.10,admin,ssh,alert,threat event occurred
+2025-04-16T18:27:00.322648,SRC,172.16.0.3,10.0.0.5,admin,ssh,deny,src event occurred
+2025-04-16T16:55:42.322648,SRC,192.168.1.10,192.168.1.10,user2,ssl,deny,src event occurred
+2025-04-16T06:08:54.322648,HIPMATCH,192.168.1.10,192.168.1.10,user2,ftp,drop,hip_match_true
+2025-04-16T22:09:13.322648,SYSTEM,10.0.0.5,192.168.1.10,admin,dns,alert,reboot
+2025-04-16T02:38:43.322648,SYSTEM,192.168.1.10,192.168.1.10,user2,dns,drop,reboot
+2025-04-16T04:07:48.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,ssh,alert,interface_down
+2025-04-16T07:04:52.322648,USER,192.168.1.10,172.16.0.3,user1,web-browsing,drop,user event occurred
+2025-04-16T18:02:19.322648,SYSTEM,192.168.1.10,192.168.1.10,user2,ftp,alert,reboot
+2025-04-16T09:27:35.322648,USER,192.168.1.20,172.16.0.3,admin,ssl,alert,user event occurred
+2025-04-16T03:23:52.322648,THREAT,10.0.0.5,10.0.0.5,admin,ssl,drop,threat event occurred
+2025-04-16T03:04:27.322648,THREAT,172.16.0.3,192.168.1.20,user1,dns,deny,threat event occurred
+2025-04-16T19:01:54.322648,SRC,172.16.0.3,192.168.1.10,guest,dns,allow,src event occurred
+2025-04-16T03:31:23.322648,USER,192.168.1.10,10.0.0.5,guest,ssh,deny,user event occurred
+2025-04-16T10:40:53.322648,SRC,192.168.1.20,10.0.0.5,user2,web-browsing,alert,src event occurred
+2025-04-16T16:46:04.322648,THREAT,172.16.0.3,10.0.0.5,user2,ssh,alert,threat event occurred
+2025-04-16T16:49:52.322648,TRAFFIC,172.16.0.3,192.168.1.20,user1,ssl,drop,traffic event occurred
+2025-04-16T21:54:33.322648,HIPMATCH,172.16.0.3,172.16.0.3,user1,dns,drop,hip_match_false
+2025-04-16T21:48:46.322648,HIPMATCH,10.0.0.5,192.168.1.10,admin,ssh,alert,hip_match_false
+2025-04-16T23:06:14.322648,HIPMATCH,192.168.1.10,172.16.0.3,user1,ssh,drop,hip_match_false
+2025-04-16T08:13:22.322648,HIPMATCH,192.168.1.20,172.16.0.3,admin,ssh,alert,hip_match_false
+2025-04-16T18:25:27.322648,TRAFFIC,10.0.0.5,192.168.1.20,user1,ssl,alert,traffic event occurred
+2025-04-16T10:41:18.322648,SRC,10.0.0.5,172.16.0.3,guest,ftp,deny,src event occurred
+2025-04-16T09:33:26.322648,METADATA,10.0.0.5,192.168.1.10,admin,dns,allow,update_check
+2025-04-16T03:44:48.322648,SRC,10.0.0.5,10.0.0.5,user1,ssl,allow,src event occurred
+2025-04-16T22:36:40.322648,TRAFFIC,172.16.0.3,172.16.0.3,user2,web-browsing,deny,traffic event occurred
+2025-04-16T09:53:18.322648,SYSTEM,192.168.1.20,10.0.0.5,user1,ssl,drop,interface_down
+2025-04-16T14:10:57.322648,METADATA,192.168.1.10,10.0.0.5,admin,ssh,alert,update_check
+2025-04-16T21:16:09.322648,THREAT,192.168.1.20,172.16.0.3,guest,ssh,allow,threat event occurred
+2025-04-16T07:24:52.322648,SYSTEM,192.168.1.20,10.0.0.5,user2,dns,allow,interface_down
+2025-04-16T08:26:07.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,web-browsing,allow,reboot
+2025-04-17T00:01:06.322648,THREAT,10.0.0.5,10.0.0.5,guest,ssh,deny,threat event occurred
+2025-04-16T08:16:34.322648,HIPMATCH,192.168.1.20,192.168.1.20,user1,ssl,allow,hip_match_true
+2025-04-16T03:10:47.322648,TRAFFIC,192.168.1.10,192.168.1.20,guest,ssh,allow,traffic event occurred
+2025-04-17T00:02:11.322648,METADATA,192.168.1.20,10.0.0.5,user2,ssl,deny,license_warning
+2025-04-16T06:09:16.322648,METADATA,192.168.1.10,192.168.1.10,user1,ftp,drop,update_check
+2025-04-16T17:39:42.322648,THREAT,172.16.0.3,192.168.1.20,admin,ftp,deny,threat event occurred
+2025-04-16T16:24:04.322648,TRAFFIC,192.168.1.10,192.168.1.10,user1,ssl,drop,traffic event occurred
+2025-04-17T02:03:17.322648,METADATA,192.168.1.10,10.0.0.5,user2,web-browsing,drop,update_check
+2025-04-16T15:01:13.322648,SYSTEM,192.168.1.10,172.16.0.3,user2,web-browsing,drop,config_change
+2025-04-16T06:15:14.322648,TRAFFIC,192.168.1.10,192.168.1.20,user2,ssh,alert,traffic event occurred
+2025-04-16T14:49:37.322648,SYSTEM,172.16.0.3,192.168.1.20,guest,ssl,alert,config_change
+2025-04-16T05:57:25.322648,THREAT,172.16.0.3,192.168.1.20,user1,dns,allow,threat event occurred
+2025-04-16T06:52:53.322648,USER,10.0.0.5,10.0.0.5,user2,web-browsing,allow,user event occurred
+2025-04-16T08:10:44.322648,SRC,192.168.1.20,10.0.0.5,admin,ftp,deny,src event occurred
+2025-04-16T22:12:58.322648,SYSTEM,172.16.0.3,192.168.1.10,user2,ssl,allow,reboot
+2025-04-16T07:34:08.322648,USER,10.0.0.5,172.16.0.3,admin,dns,drop,user event occurred
+2025-04-16T23:53:17.322648,TRAFFIC,192.168.1.10,192.168.1.10,admin,dns,alert,traffic event occurred
+2025-04-16T03:00:43.322648,SYSTEM,172.16.0.3,192.168.1.20,user2,ssl,allow,interface_down
+2025-04-16T20:45:48.322648,SRC,192.168.1.10,172.16.0.3,admin,ssl,deny,src event occurred
+2025-04-16T11:37:41.322648,SRC,192.168.1.20,192.168.1.20,admin,ssh,allow,src event occurred
+2025-04-17T00:14:57.322648,USER,10.0.0.5,172.16.0.3,user1,web-browsing,deny,user event occurred
+2025-04-17T00:17:45.322648,THREAT,192.168.1.20,192.168.1.20,user2,ftp,deny,threat event occurred
+2025-04-17T00:44:43.322648,METADATA,172.16.0.3,10.0.0.5,guest,ssl,drop,update_check
+2025-04-16T02:38:17.322648,SYSTEM,10.0.0.5,172.16.0.3,user2,web-browsing,deny,config_change
+2025-04-16T22:08:15.322648,SRC,10.0.0.5,10.0.0.5,user1,web-browsing,allow,src event occurred
+2025-04-16T23:30:20.322648,METADATA,192.168.1.20,192.168.1.10,guest,ssh,drop,license_warning
+2025-04-17T00:07:48.322648,USER,192.168.1.10,192.168.1.20,guest,ssl,drop,user event occurred
+2025-04-16T13:59:41.322648,SRC,192.168.1.10,192.168.1.10,user1,ftp,drop,src event occurred
+2025-04-16T13:17:29.322648,THREAT,192.168.1.10,10.0.0.5,user1,ssl,allow,threat event occurred
+2025-04-16T17:05:17.322648,USER,192.168.1.20,192.168.1.20,guest,web-browsing,alert,user event occurred
+2025-04-16T17:54:23.322648,TRAFFIC,192.168.1.10,192.168.1.20,user1,web-browsing,allow,traffic event occurred
+2025-04-16T18:04:32.322648,TRAFFIC,172.16.0.3,10.0.0.5,admin,web-browsing,allow,traffic event occurred
+2025-04-16T16:39:15.322648,TRAFFIC,192.168.1.10,172.16.0.3,admin,ftp,deny,traffic event occurred
+2025-04-16T08:39:22.322648,THREAT,192.168.1.20,192.168.1.20,guest,ssh,drop,threat event occurred
+2025-04-16T22:34:32.322648,METADATA,192.168.1.20,10.0.0.5,guest,ssh,deny,update_check
+2025-04-16T08:09:33.322648,HIPMATCH,192.168.1.10,172.16.0.3,admin,ssh,drop,hip_match_false
+2025-04-16T22:10:20.322648,HIPMATCH,10.0.0.5,10.0.0.5,admin,ssh,alert,hip_match_true
+2025-04-16T07:07:11.322648,SRC,172.16.0.3,192.168.1.20,user2,ssh,allow,src event occurred
+2025-04-16T04:44:29.322648,HIPMATCH,10.0.0.5,10.0.0.5,user2,dns,drop,hip_match_true
+2025-04-17T00:51:58.322648,THREAT,192.168.1.10,192.168.1.20,admin,ssl,allow,threat event occurred
+2025-04-16T20:32:54.322648,SYSTEM,192.168.1.10,192.168.1.10,user2,ssh,allow,interface_down
+2025-04-16T08:06:33.322648,TRAFFIC,192.168.1.20,172.16.0.3,user2,ftp,deny,traffic event occurred
+2025-04-16T04:33:09.322648,SYSTEM,172.16.0.3,172.16.0.3,guest,ssh,deny,config_change
+2025-04-16T04:33:27.322648,USER,192.168.1.20,172.16.0.3,admin,web-browsing,deny,user event occurred
+2025-04-16T14:18:25.322648,THREAT,10.0.0.5,10.0.0.5,user1,web-browsing,alert,threat event occurred
+2025-04-16T22:26:54.322648,SRC,172.16.0.3,10.0.0.5,admin,ssl,allow,src event occurred
+2025-04-16T22:02:33.322648,METADATA,192.168.1.10,172.16.0.3,guest,ssl,deny,license_warning
+2025-04-16T07:34:38.322648,TRAFFIC,192.168.1.20,172.16.0.3,guest,dns,drop,traffic event occurred
+2025-04-16T09:11:17.322648,THREAT,192.168.1.10,192.168.1.20,user1,ssh,deny,threat event occurred
+2025-04-16T14:58:45.322648,SYSTEM,192.168.1.20,10.0.0.5,admin,ssh,drop,reboot
+2025-04-16T02:42:43.322648,USER,10.0.0.5,10.0.0.5,guest,ssh,allow,user event occurred
+2025-04-16T06:51:57.322648,SYSTEM,10.0.0.5,192.168.1.20,guest,web-browsing,deny,config_change
+2025-04-16T08:24:15.322648,THREAT,192.168.1.20,10.0.0.5,user1,dns,drop,threat event occurred
+2025-04-16T23:39:56.322648,METADATA,10.0.0.5,172.16.0.3,guest,ssl,alert,update_check
+2025-04-16T16:34:56.322648,METADATA,172.16.0.3,10.0.0.5,admin,ssh,deny,license_warning
+2025-04-17T01:38:02.322648,TRAFFIC,172.16.0.3,172.16.0.3,admin,dns,deny,traffic event occurred
+2025-04-16T10:06:34.322648,SRC,10.0.0.5,172.16.0.3,admin,ssh,allow,src event occurred
+2025-04-16T05:12:04.322648,TRAFFIC,192.168.1.20,10.0.0.5,admin,ssl,alert,traffic event occurred
+2025-04-16T05:28:10.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,ssl,deny,config_change
+2025-04-16T05:31:20.322648,SRC,192.168.1.10,192.168.1.10,user2,ssl,drop,src event occurred
+2025-04-17T00:34:16.322648,SYSTEM,172.16.0.3,172.16.0.3,admin,web-browsing,alert,reboot
+2025-04-16T02:36:56.322648,THREAT,10.0.0.5,172.16.0.3,guest,dns,deny,threat event occurred
+2025-04-17T02:20:15.322648,THREAT,172.16.0.3,192.168.1.20,user1,web-browsing,allow,threat event occurred
+2025-04-16T09:31:13.322648,SRC,10.0.0.5,10.0.0.5,user1,dns,allow,src event occurred
+2025-04-16T08:06:32.322648,THREAT,192.168.1.20,10.0.0.5,guest,web-browsing,alert,threat event occurred
+2025-04-16T06:47:58.322648,THREAT,10.0.0.5,192.168.1.20,guest,dns,alert,threat event occurred
+2025-04-16T10:24:47.322648,HIPMATCH,192.168.1.10,10.0.0.5,user2,ssh,drop,hip_match_false
+2025-04-16T20:40:04.322648,HIPMATCH,10.0.0.5,192.168.1.20,user2,ssh,allow,hip_match_false
+2025-04-16T13:08:06.322648,HIPMATCH,192.168.1.10,10.0.0.5,admin,ssh,drop,hip_match_false
+2025-04-16T06:26:14.322648,HIPMATCH,10.0.0.5,10.0.0.5,guest,ssl,drop,hip_match_false
+2025-04-16T19:03:36.322648,USER,192.168.1.20,10.0.0.5,guest,ftp,drop,user event occurred
+2025-04-16T09:03:27.322648,USER,192.168.1.10,10.0.0.5,user2,ftp,allow,user event occurred
+2025-04-16T13:30:21.322648,USER,10.0.0.5,192.168.1.20,user1,web-browsing,drop,user event occurred
+2025-04-16T14:40:45.322648,SYSTEM,192.168.1.20,10.0.0.5,guest,web-browsing,deny,interface_down
+2025-04-16T09:41:17.322648,USER,10.0.0.5,192.168.1.20,user2,ssl,allow,user event occurred
+2025-04-16T11:29:05.322648,THREAT,192.168.1.10,172.16.0.3,user1,ssh,drop,threat event occurred
+2025-04-17T02:22:45.322648,METADATA,192.168.1.20,192.168.1.20,user2,dns,alert,license_warning
+2025-04-16T19:26:25.322648,USER,192.168.1.20,10.0.0.5,user1,ftp,allow,user event occurred
+2025-04-16T08:43:53.322648,SRC,10.0.0.5,192.168.1.10,admin,ssl,deny,src event occurred
+2025-04-16T18:41:45.322648,HIPMATCH,192.168.1.10,192.168.1.20,guest,dns,allow,hip_match_true
+2025-04-16T10:37:04.322648,SRC,172.16.0.3,192.168.1.20,admin,ssl,drop,src event occurred
+2025-04-16T14:03:37.322648,THREAT,192.168.1.10,10.0.0.5,user1,dns,drop,threat event occurred
+2025-04-16T08:12:59.322648,USER,172.16.0.3,172.16.0.3,admin,web-browsing,drop,user event occurred
+2025-04-16T17:07:36.322648,TRAFFIC,192.168.1.10,172.16.0.3,admin,ftp,drop,traffic event occurred
+2025-04-16T11:38:05.322648,USER,192.168.1.20,192.168.1.20,user1,ssl,alert,user event occurred
+2025-04-16T04:21:12.322648,TRAFFIC,192.168.1.20,10.0.0.5,admin,dns,deny,traffic event occurred
+2025-04-16T20:06:12.322648,SRC,172.16.0.3,192.168.1.20,user1,ssh,allow,src event occurred
+2025-04-16T10:53:02.322648,METADATA,10.0.0.5,10.0.0.5,admin,ssh,alert,update_check
+2025-04-16T19:44:14.322648,USER,10.0.0.5,192.168.1.10,admin,web-browsing,alert,user event occurred
+2025-04-17T01:45:11.322648,HIPMATCH,10.0.0.5,192.168.1.20,user1,ftp,deny,hip_match_true
+2025-04-16T21:52:38.322648,SYSTEM,192.168.1.20,192.168.1.20,user1,dns,alert,config_change
+2025-04-16T23:32:32.322648,USER,192.168.1.20,172.16.0.3,user2,ssh,alert,user event occurred
+2025-04-16T09:33:23.322648,THREAT,172.16.0.3,192.168.1.10,guest,dns,alert,threat event occurred
+2025-04-16T23:37:15.322648,SYSTEM,10.0.0.5,172.16.0.3,admin,ftp,deny,config_change
+2025-04-16T09:32:54.322648,TRAFFIC,192.168.1.10,172.16.0.3,admin,ssl,alert,traffic event occurred
+2025-04-16T10:20:44.322648,USER,192.168.1.10,172.16.0.3,user2,ftp,deny,user event occurred
+2025-04-16T07:59:14.322648,HIPMATCH,192.168.1.20,192.168.1.20,admin,ftp,drop,hip_match_true
+2025-04-16T10:50:10.322648,THREAT,192.168.1.10,172.16.0.3,user2,dns,drop,threat event occurred
+2025-04-16T17:55:17.322648,USER,192.168.1.20,10.0.0.5,admin,web-browsing,drop,user event occurred
+2025-04-16T10:29:47.322648,SRC,172.16.0.3,172.16.0.3,user2,ssh,allow,src event occurred
+2025-04-16T20:23:44.322648,SYSTEM,10.0.0.5,172.16.0.3,user1,ssh,allow,config_change
+2025-04-16T23:47:47.322648,HIPMATCH,10.0.0.5,192.168.1.10,user2,dns,drop,hip_match_false
+2025-04-16T22:34:36.322648,METADATA,172.16.0.3,172.16.0.3,user2,dns,allow,update_check
+2025-04-16T06:52:51.322648,METADATA,192.168.1.10,192.168.1.20,guest,ssh,drop,update_check
+2025-04-17T00:27:09.322648,METADATA,172.16.0.3,192.168.1.20,user1,dns,alert,license_warning
+2025-04-16T12:12:26.322648,THREAT,192.168.1.10,192.168.1.20,user1,ssh,drop,threat event occurred
+2025-04-17T01:27:11.322648,TRAFFIC,192.168.1.10,192.168.1.20,admin,ssl,drop,traffic event occurred
+2025-04-17T02:31:54.322648,TRAFFIC,192.168.1.20,172.16.0.3,user2,ftp,drop,traffic event occurred
+2025-04-16T04:08:39.322648,SYSTEM,192.168.1.20,172.16.0.3,admin,ftp,allow,interface_down
+2025-04-16T21:23:17.322648,HIPMATCH,192.168.1.10,172.16.0.3,user1,ssl,deny,hip_match_false
+2025-04-16T16:27:45.322648,SRC,10.0.0.5,192.168.1.20,admin,ssl,drop,src event occurred
+2025-04-16T08:36:07.322648,USER,172.16.0.3,172.16.0.3,user1,ftp,deny,user event occurred
+2025-04-16T06:38:57.322648,THREAT,192.168.1.10,10.0.0.5,user2,web-browsing,deny,threat event occurred
+2025-04-16T12:13:36.322648,USER,192.168.1.10,192.168.1.20,admin,ftp,alert,user event occurred
+2025-04-16T18:10:03.322648,THREAT,192.168.1.10,192.168.1.20,user2,dns,alert,threat event occurred
+2025-04-17T02:25:39.322648,THREAT,10.0.0.5,172.16.0.3,admin,ssh,alert,threat event occurred
+2025-04-16T17:48:17.322648,HIPMATCH,172.16.0.3,192.168.1.10,user2,ssl,drop,hip_match_true
+2025-04-17T01:14:05.322648,HIPMATCH,192.168.1.10,172.16.0.3,admin,dns,deny,hip_match_true
+2025-04-17T02:25:19.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,dns,drop,hip_match_true
+2025-04-16T04:33:42.322648,SRC,192.168.1.20,192.168.1.20,guest,ssl,alert,src event occurred
+2025-04-16T06:00:43.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,ssl,alert,reboot
+2025-04-16T18:13:14.322648,TRAFFIC,192.168.1.10,172.16.0.3,guest,ftp,allow,traffic event occurred
+2025-04-16T20:09:25.322648,SYSTEM,192.168.1.20,192.168.1.20,admin,ssh,deny,interface_down
+2025-04-16T07:30:34.322648,TRAFFIC,192.168.1.10,172.16.0.3,user1,ssl,allow,traffic event occurred
+2025-04-16T22:12:51.322648,TRAFFIC,10.0.0.5,10.0.0.5,user1,ssl,drop,traffic event occurred
+2025-04-16T12:03:17.322648,TRAFFIC,172.16.0.3,192.168.1.20,guest,ssh,deny,traffic event occurred
+2025-04-17T02:22:55.322648,METADATA,192.168.1.10,192.168.1.10,admin,ftp,deny,license_warning
+2025-04-17T02:18:54.322648,TRAFFIC,192.168.1.10,192.168.1.20,guest,dns,allow,traffic event occurred
+2025-04-16T20:03:48.322648,USER,192.168.1.10,192.168.1.20,guest,ssh,allow,user event occurred
+2025-04-16T08:20:24.322648,TRAFFIC,10.0.0.5,192.168.1.10,guest,web-browsing,drop,traffic event occurred
+2025-04-16T16:37:49.322648,TRAFFIC,192.168.1.20,192.168.1.20,user2,ssh,drop,traffic event occurred
+2025-04-16T09:03:27.322648,THREAT,172.16.0.3,192.168.1.10,user1,web-browsing,allow,threat event occurred
+2025-04-16T09:38:59.322648,THREAT,192.168.1.10,172.16.0.3,admin,dns,drop,threat event occurred
+2025-04-16T11:51:10.322648,SYSTEM,192.168.1.20,172.16.0.3,admin,ssh,drop,interface_down
+2025-04-16T07:55:58.322648,SRC,172.16.0.3,192.168.1.20,user2,ssl,deny,src event occurred
+2025-04-17T01:17:46.322648,HIPMATCH,192.168.1.20,172.16.0.3,guest,web-browsing,alert,hip_match_true
+2025-04-16T05:27:39.322648,SYSTEM,192.168.1.10,172.16.0.3,admin,ssl,deny,reboot
+2025-04-16T15:39:00.322648,THREAT,10.0.0.5,192.168.1.10,user1,dns,allow,threat event occurred
+2025-04-16T12:05:01.322648,SRC,192.168.1.10,172.16.0.3,guest,web-browsing,alert,src event occurred
+2025-04-16T12:06:07.322648,USER,192.168.1.20,10.0.0.5,admin,ssl,alert,user event occurred
+2025-04-16T06:19:49.322648,THREAT,192.168.1.10,10.0.0.5,user2,ftp,allow,threat event occurred
+2025-04-16T02:40:16.322648,USER,172.16.0.3,10.0.0.5,user1,ssl,allow,user event occurred
+2025-04-16T18:57:20.322648,THREAT,192.168.1.20,192.168.1.20,guest,web-browsing,allow,threat event occurred
+2025-04-16T09:45:23.322648,TRAFFIC,192.168.1.10,192.168.1.20,guest,web-browsing,alert,traffic event occurred
+2025-04-16T17:45:32.322648,METADATA,10.0.0.5,10.0.0.5,guest,web-browsing,deny,update_check
+2025-04-16T10:16:42.322648,TRAFFIC,192.168.1.10,192.168.1.20,user2,ssl,drop,traffic event occurred
+2025-04-16T21:27:23.322648,THREAT,10.0.0.5,192.168.1.10,user2,dns,allow,threat event occurred
+2025-04-16T20:58:43.322648,METADATA,192.168.1.20,192.168.1.10,guest,dns,allow,update_check
+2025-04-16T23:13:56.322648,TRAFFIC,192.168.1.20,172.16.0.3,admin,ssl,alert,traffic event occurred
+2025-04-16T21:02:51.322648,SYSTEM,10.0.0.5,10.0.0.5,guest,ssl,drop,reboot
+2025-04-16T20:02:30.322648,HIPMATCH,192.168.1.20,172.16.0.3,guest,ftp,allow,hip_match_true
+2025-04-16T05:33:51.322648,SRC,192.168.1.10,192.168.1.10,guest,ftp,deny,src event occurred
+2025-04-16T04:09:58.322648,THREAT,192.168.1.20,192.168.1.20,user1,dns,alert,threat event occurred
+2025-04-16T12:43:05.322648,HIPMATCH,10.0.0.5,172.16.0.3,user2,dns,alert,hip_match_false
+2025-04-16T16:01:35.322648,HIPMATCH,192.168.1.20,192.168.1.10,user2,ssh,drop,hip_match_false
+2025-04-16T04:52:30.322648,SRC,172.16.0.3,192.168.1.20,guest,ssl,allow,src event occurred
+2025-04-16T17:08:28.322648,SYSTEM,192.168.1.20,192.168.1.20,user2,ssh,drop,interface_down
+2025-04-17T00:13:01.322648,METADATA,192.168.1.20,192.168.1.20,user1,ftp,allow,update_check
+2025-04-16T18:46:52.322648,TRAFFIC,172.16.0.3,192.168.1.10,user1,ftp,drop,traffic event occurred
+2025-04-16T14:21:19.322648,SRC,10.0.0.5,10.0.0.5,guest,ssl,alert,src event occurred
+2025-04-16T09:20:33.322648,METADATA,172.16.0.3,10.0.0.5,user1,ftp,allow,update_check
+2025-04-16T14:53:41.322648,THREAT,192.168.1.20,192.168.1.20,user2,ssh,alert,threat event occurred
+2025-04-16T22:35:33.322648,METADATA,192.168.1.10,10.0.0.5,admin,web-browsing,deny,update_check
+2025-04-16T17:51:50.322648,SYSTEM,10.0.0.5,192.168.1.20,user1,web-browsing,allow,reboot
+2025-04-17T02:06:57.322648,SRC,172.16.0.3,192.168.1.10,admin,ftp,allow,src event occurred
+2025-04-16T04:00:28.322648,SYSTEM,192.168.1.20,192.168.1.10,guest,ssh,drop,interface_down
+2025-04-16T13:17:02.322648,SRC,192.168.1.20,192.168.1.20,user1,ftp,deny,src event occurred
+2025-04-16T14:26:29.322648,THREAT,172.16.0.3,192.168.1.10,user1,ssh,allow,threat event occurred
+2025-04-17T01:49:04.322648,HIPMATCH,10.0.0.5,10.0.0.5,guest,ssh,alert,hip_match_true
+2025-04-16T19:56:23.322648,SRC,192.168.1.10,192.168.1.20,admin,ssl,drop,src event occurred
+2025-04-16T04:09:19.322648,SRC,172.16.0.3,10.0.0.5,user2,ssl,drop,src event occurred
+2025-04-16T09:21:04.322648,SRC,172.16.0.3,192.168.1.10,user1,ssh,allow,src event occurred
+2025-04-16T07:35:33.322648,THREAT,192.168.1.20,192.168.1.10,guest,ftp,allow,threat event occurred
+2025-04-16T14:55:28.322648,TRAFFIC,10.0.0.5,172.16.0.3,user1,ssh,alert,traffic event occurred
+2025-04-16T04:05:56.322648,METADATA,10.0.0.5,192.168.1.10,user1,ssl,drop,license_warning
+2025-04-16T13:01:43.322648,SYSTEM,10.0.0.5,192.168.1.20,user2,web-browsing,allow,reboot
+2025-04-17T00:09:26.322648,HIPMATCH,192.168.1.20,192.168.1.10,guest,ssl,allow,hip_match_true
+2025-04-16T14:39:14.322648,THREAT,10.0.0.5,192.168.1.20,admin,ftp,allow,threat event occurred
+2025-04-16T18:17:47.322648,SRC,192.168.1.10,172.16.0.3,guest,ftp,allow,src event occurred
+2025-04-16T07:55:17.322648,HIPMATCH,192.168.1.10,10.0.0.5,guest,dns,deny,hip_match_true
+2025-04-16T23:56:05.322648,HIPMATCH,192.168.1.10,192.168.1.20,admin,ssl,deny,hip_match_true
+2025-04-16T15:27:43.322648,THREAT,192.168.1.10,192.168.1.20,guest,dns,drop,threat event occurred
+2025-04-16T10:36:57.322648,TRAFFIC,172.16.0.3,192.168.1.20,user2,web-browsing,alert,traffic event occurred
+2025-04-16T13:09:18.322648,THREAT,192.168.1.10,192.168.1.20,guest,web-browsing,allow,threat event occurred
+2025-04-16T04:57:52.322648,SYSTEM,192.168.1.10,172.16.0.3,guest,ftp,drop,interface_down
+2025-04-17T00:54:17.322648,THREAT,172.16.0.3,10.0.0.5,user2,ftp,alert,threat event occurred
+2025-04-17T01:48:41.322648,USER,192.168.1.10,172.16.0.3,guest,ftp,allow,user event occurred
+2025-04-16T22:36:48.322648,TRAFFIC,172.16.0.3,192.168.1.10,admin,ftp,deny,traffic event occurred
+2025-04-16T09:57:36.322648,HIPMATCH,172.16.0.3,172.16.0.3,user1,web-browsing,allow,hip_match_true
+2025-04-16T16:47:07.322648,METADATA,172.16.0.3,10.0.0.5,admin,ftp,alert,update_check
+2025-04-16T08:06:16.322648,SYSTEM,192.168.1.10,172.16.0.3,user1,ftp,alert,reboot
+2025-04-16T23:30:32.322648,THREAT,10.0.0.5,172.16.0.3,user1,ssl,allow,threat event occurred
+2025-04-16T05:44:00.322648,METADATA,172.16.0.3,192.168.1.20,user2,ssh,alert,license_warning
+2025-04-16T05:22:16.322648,METADATA,10.0.0.5,192.168.1.10,user2,ssl,allow,license_warning
+2025-04-16T23:24:12.322648,METADATA,172.16.0.3,192.168.1.10,user2,ssh,alert,license_warning
+2025-04-16T11:04:24.322648,SYSTEM,172.16.0.3,192.168.1.10,user2,ftp,drop,config_change
+2025-04-16T13:27:53.322648,SRC,192.168.1.20,192.168.1.20,user2,web-browsing,deny,src event occurred
+2025-04-16T08:16:30.322648,HIPMATCH,10.0.0.5,172.16.0.3,guest,web-browsing,allow,hip_match_true
+2025-04-16T09:53:57.322648,USER,172.16.0.3,10.0.0.5,admin,ssl,alert,user event occurred
+2025-04-16T18:22:49.322648,METADATA,192.168.1.20,192.168.1.10,user2,ssh,allow,license_warning
+2025-04-17T00:23:54.322648,HIPMATCH,172.16.0.3,192.168.1.20,guest,dns,alert,hip_match_false
+2025-04-17T02:24:03.322648,USER,192.168.1.20,192.168.1.20,admin,dns,drop,user event occurred
+2025-04-16T18:23:13.322648,HIPMATCH,192.168.1.10,192.168.1.20,admin,dns,drop,hip_match_true
+2025-04-16T23:29:39.322648,USER,192.168.1.20,192.168.1.20,admin,dns,drop,user event occurred
+2025-04-16T04:37:05.322648,THREAT,10.0.0.5,192.168.1.10,admin,ssh,drop,threat event occurred
+2025-04-16T21:24:04.322648,METADATA,10.0.0.5,192.168.1.10,user2,ftp,deny,license_warning
+2025-04-16T05:33:22.322648,USER,192.168.1.10,192.168.1.20,user2,web-browsing,allow,user event occurred
+2025-04-16T11:16:26.322648,TRAFFIC,10.0.0.5,192.168.1.10,admin,dns,allow,traffic event occurred
+2025-04-16T02:51:54.322648,SRC,192.168.1.10,192.168.1.20,user2,web-browsing,allow,src event occurred
+2025-04-17T02:15:18.322648,METADATA,10.0.0.5,172.16.0.3,user1,web-browsing,allow,update_check
+2025-04-16T14:53:37.322648,METADATA,172.16.0.3,192.168.1.10,guest,ftp,drop,update_check
+2025-04-16T09:29:05.322648,TRAFFIC,10.0.0.5,10.0.0.5,admin,ssl,alert,traffic event occurred
+2025-04-17T01:44:33.322648,TRAFFIC,192.168.1.10,192.168.1.10,guest,dns,deny,traffic event occurred
+2025-04-16T07:21:11.322648,TRAFFIC,192.168.1.20,192.168.1.20,admin,ftp,allow,traffic event occurred
+2025-04-16T13:55:56.322648,TRAFFIC,10.0.0.5,172.16.0.3,guest,web-browsing,alert,traffic event occurred
+2025-04-16T03:43:41.322648,HIPMATCH,192.168.1.10,192.168.1.10,user2,ssl,alert,hip_match_false
+2025-04-17T02:24:46.322648,METADATA,192.168.1.10,172.16.0.3,user1,ssh,alert,license_warning
+2025-04-17T02:14:01.322648,TRAFFIC,192.168.1.10,10.0.0.5,guest,ftp,deny,traffic event occurred
+2025-04-16T18:17:29.322648,USER,192.168.1.20,192.168.1.10,admin,ssh,drop,user event occurred
+2025-04-16T20:16:57.322648,SYSTEM,192.168.1.10,192.168.1.20,user2,ftp,drop,reboot
+2025-04-16T06:10:49.322648,SRC,192.168.1.20,192.168.1.20,user1,ftp,alert,src event occurred
+2025-04-16T06:50:05.322648,THREAT,192.168.1.10,172.16.0.3,admin,ssl,alert,threat event occurred
+2025-04-16T23:06:25.322648,TRAFFIC,192.168.1.20,192.168.1.10,guest,web-browsing,deny,traffic event occurred
+2025-04-16T05:39:26.322648,SYSTEM,192.168.1.20,192.168.1.20,admin,ftp,drop,reboot
+2025-04-16T08:00:15.322648,HIPMATCH,192.168.1.10,192.168.1.20,admin,dns,drop,hip_match_false
+2025-04-16T17:23:05.322648,THREAT,10.0.0.5,10.0.0.5,admin,ftp,allow,threat event occurred
+2025-04-16T05:37:09.322648,THREAT,192.168.1.20,192.168.1.10,user2,ftp,drop,threat event occurred
+2025-04-16T19:08:35.322648,USER,10.0.0.5,10.0.0.5,user2,web-browsing,drop,user event occurred
+2025-04-16T16:21:00.322648,USER,192.168.1.20,192.168.1.20,admin,ftp,alert,user event occurred
+2025-04-16T05:38:16.322648,SRC,192.168.1.10,192.168.1.20,user1,ssh,deny,src event occurred
+2025-04-16T23:18:21.322648,HIPMATCH,172.16.0.3,172.16.0.3,guest,ssh,deny,hip_match_true
+2025-04-16T18:33:26.322648,TRAFFIC,10.0.0.5,192.168.1.10,user1,ssh,deny,traffic event occurred
+2025-04-16T11:03:55.322648,HIPMATCH,192.168.1.20,192.168.1.20,admin,dns,allow,hip_match_true
+2025-04-16T05:15:55.322648,SRC,10.0.0.5,172.16.0.3,user2,ssh,allow,src event occurred
+2025-04-16T16:39:19.322648,TRAFFIC,192.168.1.10,192.168.1.10,user1,ssl,allow,traffic event occurred
+2025-04-16T14:08:26.322648,HIPMATCH,192.168.1.20,10.0.0.5,user2,web-browsing,allow,hip_match_false
+2025-04-16T23:22:16.322648,SRC,192.168.1.10,192.168.1.10,guest,ftp,allow,src event occurred
+2025-04-16T20:07:57.322648,METADATA,10.0.0.5,172.16.0.3,admin,web-browsing,alert,license_warning
+2025-04-16T06:51:25.322648,TRAFFIC,192.168.1.10,10.0.0.5,user2,web-browsing,deny,traffic event occurred
+2025-04-16T18:36:17.322648,SYSTEM,192.168.1.10,192.168.1.20,user2,dns,drop,config_change
+2025-04-16T19:17:37.322648,HIPMATCH,192.168.1.10,192.168.1.10,user1,dns,drop,hip_match_false
+2025-04-16T06:48:43.322648,HIPMATCH,172.16.0.3,192.168.1.10,guest,ssl,deny,hip_match_true
+2025-04-16T10:59:14.322648,SYSTEM,192.168.1.10,10.0.0.5,user2,web-browsing,alert,interface_down
+2025-04-17T00:54:53.322648,METADATA,192.168.1.20,192.168.1.20,user2,ftp,alert,license_warning
+2025-04-16T04:29:33.322648,TRAFFIC,10.0.0.5,192.168.1.20,user2,ftp,deny,traffic event occurred
+2025-04-16T13:59:28.322648,THREAT,172.16.0.3,192.168.1.10,admin,web-browsing,deny,threat event occurred
+2025-04-16T14:05:13.322648,SYSTEM,172.16.0.3,192.168.1.20,guest,web-browsing,allow,interface_down
+2025-04-16T16:57:34.322648,TRAFFIC,172.16.0.3,172.16.0.3,user2,dns,alert,traffic event occurred
+2025-04-17T01:30:54.322648,THREAT,192.168.1.10,192.168.1.10,admin,dns,drop,threat event occurred
+2025-04-16T23:37:07.322648,HIPMATCH,192.168.1.20,10.0.0.5,user1,ssl,alert,hip_match_true
+2025-04-16T15:48:11.322648,METADATA,10.0.0.5,192.168.1.20,admin,web-browsing,alert,license_warning
+2025-04-16T08:13:55.322648,USER,172.16.0.3,192.168.1.20,user1,ssh,alert,user event occurred
+2025-04-16T13:45:34.322648,USER,172.16.0.3,10.0.0.5,user2,ssh,deny,user event occurred
+2025-04-16T02:37:50.322648,TRAFFIC,192.168.1.20,192.168.1.10,admin,ssh,alert,traffic event occurred
+2025-04-16T07:07:26.322648,THREAT,192.168.1.10,192.168.1.20,user1,web-browsing,drop,threat event occurred
+2025-04-17T02:29:30.322648,SYSTEM,192.168.1.10,192.168.1.20,guest,ssh,deny,reboot
+2025-04-16T06:47:42.322648,THREAT,10.0.0.5,172.16.0.3,user1,ssh,allow,threat event occurred
+2025-04-16T17:38:14.322648,THREAT,10.0.0.5,192.168.1.20,guest,ssh,drop,threat event occurred
+2025-04-16T11:11:35.322648,SYSTEM,192.168.1.10,10.0.0.5,guest,dns,alert,interface_down
+2025-04-16T05:39:54.322648,HIPMATCH,172.16.0.3,172.16.0.3,user2,ssl,deny,hip_match_true
+2025-04-17T02:32:49.322648,SYSTEM,172.16.0.3,192.168.1.10,user1,ssl,drop,config_change
+2025-04-16T04:41:00.322648,TRAFFIC,192.168.1.20,172.16.0.3,user2,ssl,drop,traffic event occurred
+2025-04-16T09:28:07.322648,THREAT,10.0.0.5,192.168.1.10,admin,dns,deny,threat event occurred
+2025-04-17T02:08:48.322648,USER,172.16.0.3,192.168.1.20,user1,dns,drop,user event occurred
+2025-04-16T11:13:12.322648,THREAT,10.0.0.5,10.0.0.5,guest,ssh,drop,threat event occurred
+2025-04-16T20:14:03.322648,USER,10.0.0.5,192.168.1.20,user2,ssl,drop,user event occurred
+2025-04-16T05:59:13.322648,USER,192.168.1.20,192.168.1.10,admin,ssl,deny,user event occurred
+2025-04-16T03:09:52.322648,USER,10.0.0.5,10.0.0.5,user1,dns,deny,user event occurred
+2025-04-16T16:38:21.322648,TRAFFIC,172.16.0.3,192.168.1.20,user1,ftp,alert,traffic event occurred
+2025-04-16T22:26:03.322648,USER,192.168.1.20,192.168.1.10,user2,web-browsing,allow,user event occurred
+2025-04-16T11:24:12.322648,THREAT,172.16.0.3,192.168.1.20,guest,dns,deny,threat event occurred
+2025-04-16T11:20:13.322648,SRC,192.168.1.10,10.0.0.5,admin,dns,allow,src event occurred
+2025-04-17T00:25:34.322648,USER,192.168.1.10,172.16.0.3,user1,ssl,deny,user event occurred
+2025-04-16T13:56:36.322648,HIPMATCH,172.16.0.3,10.0.0.5,user2,dns,drop,hip_match_true
+2025-04-16T18:00:46.322648,USER,172.16.0.3,10.0.0.5,admin,ssl,alert,user event occurred
+2025-04-16T14:23:57.322648,THREAT,10.0.0.5,172.16.0.3,user1,dns,drop,threat event occurred
+2025-04-16T04:15:08.322648,METADATA,192.168.1.10,172.16.0.3,user2,ssh,allow,update_check
+2025-04-16T03:29:48.322648,SYSTEM,192.168.1.20,192.168.1.10,user1,web-browsing,allow,interface_down
+2025-04-16T15:10:48.322648,HIPMATCH,10.0.0.5,192.168.1.10,user1,ssh,deny,hip_match_true
+2025-04-16T03:41:10.322648,TRAFFIC,10.0.0.5,172.16.0.3,user1,dns,deny,traffic event occurred
+2025-04-16T07:36:06.322648,USER,172.16.0.3,192.168.1.10,guest,ssh,deny,user event occurred
+2025-04-16T22:11:46.322648,SYSTEM,192.168.1.10,172.16.0.3,admin,dns,drop,config_change
+2025-04-16T04:28:45.322648,TRAFFIC,172.16.0.3,192.168.1.10,admin,ftp,deny,traffic event occurred
+2025-04-16T23:46:49.322648,THREAT,172.16.0.3,10.0.0.5,admin,dns,alert,threat event occurred
+2025-04-16T11:23:06.322648,HIPMATCH,192.168.1.10,172.16.0.3,guest,ftp,drop,hip_match_true
+2025-04-16T22:05:38.322648,THREAT,192.168.1.10,172.16.0.3,admin,ftp,alert,threat event occurred
+2025-04-16T13:54:15.322648,HIPMATCH,172.16.0.3,172.16.0.3,user2,web-browsing,deny,hip_match_false
+2025-04-17T02:16:35.322648,HIPMATCH,192.168.1.20,172.16.0.3,user2,ftp,deny,hip_match_true
+2025-04-16T21:18:07.322648,THREAT,192.168.1.20,172.16.0.3,user2,web-browsing,alert,threat event occurred
+2025-04-16T13:33:06.322648,USER,172.16.0.3,192.168.1.10,guest,ssh,alert,user event occurred
+2025-04-16T21:38:31.322648,METADATA,192.168.1.10,10.0.0.5,guest,dns,alert,license_warning
+2025-04-16T17:20:22.322648,THREAT,192.168.1.10,10.0.0.5,user2,web-browsing,alert,threat event occurred
+2025-04-16T03:58:42.322648,HIPMATCH,172.16.0.3,192.168.1.20,user1,web-browsing,allow,hip_match_true
+2025-04-16T12:08:41.322648,USER,10.0.0.5,172.16.0.3,guest,web-browsing,deny,user event occurred
+2025-04-16T15:12:28.322648,METADATA,192.168.1.20,192.168.1.10,guest,ssl,allow,update_check
+2025-04-16T22:57:32.322648,SRC,192.168.1.20,172.16.0.3,admin,ftp,deny,src event occurred
+2025-04-16T21:46:58.322648,THREAT,172.16.0.3,192.168.1.20,user2,web-browsing,allow,threat event occurred
+2025-04-16T19:29:51.322648,SYSTEM,10.0.0.5,192.168.1.10,user2,web-browsing,deny,interface_down

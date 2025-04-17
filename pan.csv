@@ -1,0 +1,17 @@
+receive_time,serial,type,subtype,time_generated,src,dst,vsys,from,to,inbound_if,outbound_if,sessionid,repeatcnt,sport,dport,proto,action,bytes,bytes_sent,bytes_received,packets,pkts_sent,pkts_received,severity,rule,category,sequence
+2025-04-12 09:12:34,PA01234567,TRAFFIC,start,2025-04-12 09:12:33,192.168.1.100,8.8.8.8,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12345,1,52134,53,udp,allow,1240,620,620,8,4,4,informational,Allow-DNS,any,1001
+2025-04-12 09:13:45,PA01234567,TRAFFIC,end,2025-04-12 09:13:44,192.168.1.101,93.184.216.34,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12346,1,49234,80,tcp,allow,8560,1240,7320,24,12,12,informational,Allow-Web,any,1002
+2025-04-12 09:14:22,PA01234567,TRAFFIC,start,2025-04-12 09:14:21,192.168.1.102,172.217.12.142,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12347,1,52435,443,tcp,allow,0,0,0,3,2,1,informational,Allow-Web,any,1003
+2025-04-12 09:15:01,PA01234567,TRAFFIC,end,2025-04-12 09:15:00,192.168.1.103,104.244.42.65,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12348,1,60234,443,tcp,allow,12460,2340,10120,36,18,18,informational,Allow-Web,any,1004
+2025-04-12 09:16:15,PA01234567,TRAFFIC,start,2025-04-12 09:16:14,192.168.1.104,74.125.24.100,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12349,1,51234,25,tcp,deny,0,0,0,2,2,0,medium,Block-SMTP,any,1005
+2025-04-12 09:17:33,PA01234567,TRAFFIC,end,2025-04-12 09:17:32,192.168.1.105,208.80.153.224,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12350,1,55234,443,tcp,allow,34560,4320,30240,82,41,41,informational,Allow-Web,any,1006
+2025-04-12 09:18:42,PA01234567,TRAFFIC,start,2025-04-12 09:18:41,192.168.1.106,198.51.100.25,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12351,1,53234,22,tcp,deny,0,0,0,3,3,0,high,Block-SSH,any,1007
+2025-04-12 09:19:55,PA01234567,TRAFFIC,end,2025-04-12 09:19:54,192.168.1.107,203.0.113.10,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12352,1,54234,3389,tcp,deny,0,0,0,2,2,0,high,Block-RDP,any,1008
+2025-04-12 09:20:11,PA01234567,TRAFFIC,start,2025-04-12 09:20:10,192.168.1.108,192.168.2.50,vsys1,Trust,Internal,ethernet1/1,ethernet1/3,12353,1,56234,445,tcp,allow,2340,1120,1220,14,7,7,informational,Allow-SMB,any,1009
+2025-04-12 09:21:27,PA01234567,TRAFFIC,end,2025-04-12 09:21:26,192.168.1.109,192.168.3.25,vsys1,Trust,Internal,ethernet1/1,ethernet1/3,12354,1,57234,1521,tcp,allow,8760,4320,4440,28,14,14,informational,Allow-Oracle,any,1010
+2025-04-12 09:30:02,PA01234567,SYSTEM,general,2025-04-12 09:30:01,,,vsys1,,,,,,1,,,,auth-success,,,,,,,informational,,any,2001
+2025-04-12 09:45:15,PA01234567,SYSTEM,config,2025-04-12 09:45:14,,,vsys1,,,,,,1,,,,config-change,,,,,,,informational,,any,2002
+2025-04-12 10:00:00,PA01234567,SYSTEM,restart,2025-04-12 10:00:00,,,vsys1,,,,,,1,,,,system-restart,,,,,,,critical,,any,2003
+2025-04-12 10:15:30,PA01234567,SYSTEM,resource,2025-04-12 10:15:29,,,vsys1,,,,,,1,,,,resource-utilization,,,,,,,warning,,any,2004
+2025-04-12 10:30:45,PA01234567,THREAT,vulnerability,2025-04-12 10:30:44,192.168.1.120,203.0.113.100,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12355,1,58234,80,tcp,alert,1240,620,620,8,4,4,high,Alert-Vulnerability,malware,3001
+2025-04-12 10:45:22,PA01234567,THREAT,spyware,2025-04-12 10:45:21,192.168.1.130,198.51.100.200,vsys1,Trust,Untrust,ethernet1/1,ethernet1/2,12356,1,59234,443,tcp,block,0,0,0,3,3,0,critical,Block-Spyware,spyware,3002

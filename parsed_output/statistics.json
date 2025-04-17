@@ -1,0 +1,80 @@
+{
+  "total_lines": 1000,
+  "parsed_lines": 1000,
+  "failed_lines": 0,
+  "by_type": {
+    "USER": 146,
+    "SYSTEM": 139,
+    "METADATA": 125,
+    "SRC": 131,
+    "TRAFFIC": 145,
+    "THREAT": 168,
+    "HIPMATCH": 146
+  },
+  "by_cim_category": {
+    "Authentication": 146,
+    "System": 410,
+    "Change_Analysis": 104,
+    "Network_Traffic": 145,
+    "Threat_Detection": 195
+  },
+  "field_usage": {
+    "Authentication": {
+      "timestamp": 146,
+      "log_type": 146,
+      "src_ip": 146,
+      "dst_ip": 146,
+      "user": 146,
+      "app": 146,
+      "action": 146,
+      "details": 146
+    },
+    "System": {
+      "timestamp": 410,
+      "log_type": 410,
+      "src_ip": 410,
+      "dst_ip": 410,
+      "user": 410,
+      "app": 410,
+      "action": 410,
+      "details": 410
+    },
+    "Change_Analysis": {
+      "timestamp": 104,
+      "log_type": 104,
+      "src_ip": 104,
+      "dst_ip": 104,
+      "user": 104,
+      "app": 104,
+      "action": 104,
+      "details": 104
+    },
+    "Network_Traffic": {
+      "timestamp": 145,
+      "log_type": 145,
+      "src_ip": 145,
+      "dst_ip": 145,
+      "user": 145,
+      "app": 145,
+      "action": 145,
+      "details": 145
+    },
+    "Threat_Detection": {
+      "timestamp": 195,
+      "log_type": 195,
+      "src_ip": 195,
+      "dst_ip": 195,
+      "user": 195,
+      "app": 195,
+      "action": 195,
+      "details": 195
+    }
+  },
+  "validation": {
+    "valid_events": 1000,
+    "invalid_events": 0,
+    "warnings": 0,
+    "errors_by_category": {},
+    "error_details": {}
+  }
+}
